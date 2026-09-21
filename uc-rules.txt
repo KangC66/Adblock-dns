@@ -109,7 +109,7 @@
 ||f2-fe-tos.pglistatp-toutiao.com^
 ||filters.actividy.com^
 ||jscdn.actividy.com^
-
+||filters.actividy.org^
 
 
 
