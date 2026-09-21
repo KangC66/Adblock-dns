@@ -90,6 +90,16 @@ order.sm.cn
 icapp.uc.cn
 inlinkapp.uc.cn
 beijing.log.aliyuncs.com
+is.autonavi.com
+uc2-website-sub.uc.cn
+uc2-service-square.iggrowth.cn
+stars.shuqireader.com
+u2-reader.uc.cn
+ustory-uppas.uc.cn
+upads.ucweb.com
+
+
+
 
 
 
