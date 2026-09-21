@@ -141,7 +141,7 @@
 0.0.0.0 imhp-sub.uc.cn
 0.0.0.0 ucdn.uc.cn
 0.0.0.0 imuserver-upaas.uc.cn
-
+0.0.0.0 mavi-user.uc.cn
 
 
 
