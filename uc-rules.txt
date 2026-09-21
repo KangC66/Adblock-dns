@@ -107,6 +107,18 @@
 ||corder.sm.cn^
 ||ibaggs.tanx.com^
 ||f2-fe-tos.pglistatp-toutiao.com^
+||filters.actividy.com^
+||jscdn.actividy.com^
+
+
+
+
+
+
+
+
+
+
 
 
 
