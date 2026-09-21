@@ -29,7 +29,6 @@ pp-license-proxy.aliyuncs.com
 mssdk.ok.com
 webcast-open.douyin.com
 vodcdn.volcdn.com
-weather.moji.com
 iduatack-restios.amap.com
 duatack-restios.amap.com
 px.ucweb.com
