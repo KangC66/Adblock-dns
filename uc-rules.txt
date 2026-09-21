@@ -105,3 +105,9 @@
 ||novel.shuqireader.com^
 ||cpc-service-square.58iclick.com^
 ||corder.sm.cn^
+||ibaggs.tanx.com^
+||f2-fe-tos.pglistatp-toutiao.com^
+
+
+
+
