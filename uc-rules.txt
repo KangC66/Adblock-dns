@@ -134,3 +134,9 @@
 0.0.0.0 mmstat.com
 0.0.0.0 novel.xiaoshuo-sm.com
 0.0.0.0 novel.shuqireader.com
+0.0.0.0 api.sm.cn
+0.0.0.0 sp-adx-config.uc.cn
+0.0.0.0 ucweb-site.uc.cn
+0.0.0.0 fs-fe-tos.pglistatp-toutiao.com
+
+
