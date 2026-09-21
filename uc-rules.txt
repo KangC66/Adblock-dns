@@ -15,3 +15,4 @@
 ||coral-task.uc.cn^
 ||iflow.uczzd.cn^
 ||image.uczzd.cn^
+||api.kuishou.cn^
