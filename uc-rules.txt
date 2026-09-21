@@ -54,3 +54,7 @@ partner.igrowth.cn
 istar.shipuqiu-resource.111222.cn
 acis.m.taobao.com
 ads.igrowth.cn
+api.cuc.cn
+applogios.uc.cn
+flow.aliyuncs.com
+ad.qq.com
