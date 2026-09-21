@@ -81,5 +81,11 @@ imnovel.uc.cn
 imvisgis-uc.uc.cn
 imlaunchwx.uc.cn
 wxcode.qq.com
+wpps.apple.com
+ads.ucfly.com
+sdk-config.uc.cn
+
+
+
 
 
