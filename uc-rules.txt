@@ -110,7 +110,7 @@
 ||filters.actividy.com^
 ||jscdn.actividy.com^
 ||filters.actividy.org^
-
+||zlink.ugdk.cn^
 
 
 
