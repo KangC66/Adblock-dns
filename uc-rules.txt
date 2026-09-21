@@ -139,7 +139,8 @@ stars.shuqireader.com
 upads.ucweb.com
 incoapp.uc.cn
 uiuserver-upaas.uc.cn
-
+uicdc2-upaas.uc.cn
+mmstat.com
 
 
 
