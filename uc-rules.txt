@@ -105,6 +105,9 @@ coral-task.uc.cn
 coral-model.shuqireader.com
 alcdn.com
 lf-cdn-tos.bytedcm.com
+live-api.dyliveshow.cn
+live-api-gateway.dyliveshow.cn
+livecast-g-sourcecdn.bytedgecko.com
 
 
 
