@@ -144,6 +144,10 @@
 0.0.0.0 mavi-user.uc.cn
 0.0.0.0 isimage.uczzd.cn
 0.0.0.0 unpm-upaas.uc.cn
+0.0.0.0 cms.uc.cn
+
+
+
 
 
 
