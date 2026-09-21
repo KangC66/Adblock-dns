@@ -1,8 +1,17 @@
-! Title: UC浏览器拦截规则
-! Description: 拦截UC浏览器广告、推送、小说、视频相关域名
-! Homepage: https://github.com/KangC66/Adblock-dns
-! Expires: 12h
-
+yunxish.com
+uczzd.cn
+puds.ucweb.com
+umessage-online-zb.uc.cn
+api.xiaoshuo1-sm.com
+story-api.uc.cn
+drama-api.uc.cn
+napi.uc.cn
+pages.uc.cn
+coral-task.uc.cn
+iflow.uczzd.cn
+image.uczzd.cn
+api.kuishou.cn
+gateway.iclouc.com
 icdn.fc-app.uc.cn
 config.tanx.com
 talkx.com
