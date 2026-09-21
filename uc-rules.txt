@@ -151,7 +151,7 @@
 0.0.0.0 snssdk.com
 0.0.0.0 bytegecko.com
 0.0.0.0 mkt-report.zijieapi.com
-
+0.0.0.0 mon.zijieapi.com
 
 
 
