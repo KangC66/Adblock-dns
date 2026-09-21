@@ -1,3 +1,35 @@
+||api.sm.cn^
+||sp-adx-config.uc.cn^
+||ucweb-site.uc.cn^
+||fs-fe-tos.pglistatp-toutiao.com^
+||imhp-sub.uc.cn^
+||ucdn.uc.cn^
+||imuserver-upaas.uc.cn^
+||mavi-user.uc.cn^
+||isimage.uczzd.cn^
+||unpm-upaas.uc.cn^
+||cms.uc.cn^
+||order.sm.cn^
+||csb-cdn.sm.cn^
+||cm.sm.cn^
+||snssdk.com^
+||bytegecko.com^
+||mkt-report.zijieapi.com^
+||mon.zijieapi.com^
+||uads-upaas.uc.cn^
+||ucdr-upaas.uc.cn^
+||uc-novel-shuqireader.com^
+||f-fe-pg-liststtp-toutiao.com^
+||ic-service-square-igrowth.com^
+||shqreader-resource.11222.cn^
+||userver-upaas.uc.cn^
+||ucdc2-upaas.uc.cn^
+||hp-cms-uc.uc.cn^
+||iflow.uczzd.cn^
+||mi-ad.uc.cn^
+
+
+
 0.0.0.0 yunxish.com
 0.0.0.0 uczzd.cn
 0.0.0.0 puds.ucweb.com
