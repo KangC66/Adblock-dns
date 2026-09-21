@@ -75,5 +75,11 @@ imp.uc.cn
 sdk-adx-jd.com
 1rtb.net
 ssp.igrowth.cn
+imvisgis.uc.cn
+novel.uc.cn
+imnovel.uc.cn
+imvisgis-uc.uc.cn
+imlaunchwx.uc.cn
+wxcode.qq.com
 
 
