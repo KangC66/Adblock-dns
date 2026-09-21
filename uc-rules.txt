@@ -145,6 +145,12 @@
 0.0.0.0 isimage.uczzd.cn
 0.0.0.0 unpm-upaas.uc.cn
 0.0.0.0 cms.uc.cn
+0.0.0.0 order.sm.cn
+0.0.0.0 csb-cdn.sm.cn
+0.0.0.0 cm.sm.cn
+0.0.0.0 snssdk.com
+0.0.0.0 bytegecko.com
+0.0.0.0 mkt-report.zijieapi.com
 
 
 
