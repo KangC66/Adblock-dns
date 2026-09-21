@@ -16,3 +16,4 @@
 ||iflow.uczzd.cn^
 ||image.uczzd.cn^
 ||api.kuishou.cn^
+||gateway.iclouc.com^
