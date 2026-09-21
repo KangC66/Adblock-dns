@@ -32,3 +32,5 @@ vodcdn.volcdn.com
 weather.moji.com
 iduatack-restios.amap.com
 duatack-restios.amap.com
+px.ucweb.com
+a.opens.tanx.com
