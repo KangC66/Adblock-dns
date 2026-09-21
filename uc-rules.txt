@@ -162,7 +162,7 @@
 0.0.0.0 ucdc2-upaas.uc.cn
 0.0.0.0 hp-cms-uc.uc.cn
 0.0.0.0 iflow.uczzd.cn
-
+0.0.0.0 mi-ad.uc.cn
 
 
 
