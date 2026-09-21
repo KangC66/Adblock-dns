@@ -112,7 +112,7 @@
 ||filters.actividy.org^
 ||zlink.ugdk.cn^
 ||profile.gc-gale.com^
-
+||sm.cn^
 
 
 
