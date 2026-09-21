@@ -136,7 +136,9 @@ uc-novel.shuqireader.com
 cpc-service-square.58iclick.com
 corder.sm.cn
 stars.shuqireader.com
-
+upads.ucweb.com
+incoapp.uc.cn
+uiuserver-upaas.uc.cn
 
 
 
