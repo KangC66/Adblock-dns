@@ -59,7 +59,7 @@
 ||sm.bdimg.com^
 ||ius-api.yunxish.com^
 ||partner.igrowth.cn^
-||istar.shipuqiu-resource.111222.cn^
+||istar.shipuqiu-resource.11222.cn^
 ||ads.igrowth.cn^
 ||applogios.uc.cn^
 ||ad.qq.com^
@@ -109,6 +109,7 @@
 ||f2-fe-tos.pglistatp-toutiao.com^
 ||filters.actividy.com^
 ||jscdn.actividy.com^
+
 
 
 
