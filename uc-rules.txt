@@ -1,126 +1,118 @@
-||sp-adx-config.uc.cn^
-||ucweb-site.uc.cn^
+# ===================== UC书旗小说广告拦截规则（精简注释版）=====================
+# 语法：||域名^ 拦截该域名及其全部子域名DNS解析
+# 只拦截广告SDK、广告素材、广告上报、广告跳转，不影响小说阅读正文
+# 阿里妈妈广告联盟（UC小说最主要广告源）
+||order.sm.cn^                  # 广告订单转化统计
+||csb-cdn.sm.cn^                # 阿里妈妈广告素材CDN
+||cm.sm.cn^                     # 广告内容匹配接口
+||api.xiaoshuo1-sm.com^         # 小说场景阿里妈妈广告接口
+||corder.sm.cn^                 # 广告点击上报
+||sm.cn^                        # 阿里妈妈主域名
+
+# UC书旗广告SDK、广告业务域名
+||sp-adx-config.uc.cn^          # UC广告SDK配置
+||ucweb-site.uc.cn^             # UC广告落地页
+||imhp-sub.uc.cn^               # UC信息流广告
+||ucdn.uc.cn^                   # UC广告图片/视频素材CDN
+||imuserver-upaas.uc.cn^        # 广告用户画像定向投放
+||mavi-user.uc.cn^              # 广告用户行为采集
+||isimage.uczzd.cn^             # 广告图片资源
+||unpm-upaas.uc.cn^             # UC广告投放后台
+||hp-cms-uc.uc.cn^              # 广告内容管理后台
+||iflow.uczzd.cn^               # 信息流广告渲染
+||mi-ad.uc.cn^                  # 小米联盟广告对接
+||bh.uc.cn^                     # 广告曝光统计
+||puds.ucweb.com^               # UC广告埋点日志上报
+||umessage-online-zb.uc.cn^     # 广告推送消息
+||pages.uc.cn^                  # UC广告落地页
+||ucad2-upas.uc.cn^             # UC新版广告中台
+||uc2-service-square.iggrowth.cn^ # 书旗广告聚合服务
+||stars.shuqireader.com^        # 书旗广告业务域名
+||u2-reader.uc.cn^              # 书旗广告阅读器模块
+||ustory-uppas.uc.cn^           # 书旗广告用户统计
+||upads.ucweb.com^              # UC广告请求主域名
+||im-apl.uc.cn^                 # APP推广广告
+||img.ucm.uc.cn^                # UC广告素材图片
+||coral-model.shuqireader.com^  # 书旗广告推荐算法
+||ssp-sdk-config.uc.cn^         # UC广告SSP平台SDK配置
+||partner.uc.cn^                # UC广告联盟合作对接
+||imvisgis.uc.cn^               # 广告画像采集
+||imnovel.uc.cn^                # 小说广告业务接口
+||imvisgis-uc.uc.cn^            # 广告用户画像
+||imlaunchwx.uc.cn^             # 广告活动推广
+||ads.ucfly.com^                # UC飞屏广告SDK
+||sdk-config.uc.cn^             # UC广告SDK配置
+||image.ucjr.com^               # 广告图片素材
+||fanmoysp.uc.cn^               # 广告弹窗业务
+||lbhp-tsp.uc.cn^               # 广告位调度
+||imp.uc.cn^                    # 广告曝光上报
+||applogios.uc.cn^              # APP广告埋点日志
+
+# 字节穿山甲广告联盟（UC内嵌大量字节广告）
+||snssdk.com^                   # 字节广告SDK
+||bytegecko.com^                # 字节广告行为埋点
+||mkt-report.zijieapi.com^      # 字节广告营销上报
+||mon.zijieapi.com^             # 字节广告曝光监控
+||access.pangolin-sdk-toutiao.com^ # 穿山甲广告SDK接入
+||fe-fe-cdn.pangolin-sdk-toutiao.com^ # 穿山甲广告素材CDN
+||pangolin-sdk-toutiao1.com^    # 穿山甲广告请求
+
+# 阿里Tanx广告联盟
+||a.opens.tanx.com^             # Tanx竞价广告
+||opebhs.tanx.com^              # Tanx广告曝光上报
+||ibagg.tanx.com^               # Tanx广告点击统计
+
+# igrowth广告聚合平台
+||cc-service-square.iggrowth.cn^# igrowth广告聚合服务
+||ac-service-square.yunxish.com^# 广告行为数据分析
+||mp-sub.uc.cn^                 # 广告渠道子域名
+||mpms-sub.uc.cn^               # 广告多渠道统计
+||ads-ak.igrowth.cn^            # igrowth广告鉴权
+||lrtb.igrowth.cn^              # igrowth实时竞价广告
+||igrcv.yunxish.com^            # 广告转化接收
+||partner.igrowth.cn^           # igrowth广告合作方
+||istar.shipuqiu-resource.11222.cn^ # 广告落地页资源
+||ads.igrowth.cn^               # igrowth广告主请求
+
+# 第三方广告追踪、RTB竞价平台
+||id.adbug.net^                 # Adbug设备指纹广告追踪
+||cfg.zztfly.com^               # 第三方广告配置
+||1rtb.net^                     # RTB实时竞价广告平台
+||ssp.igrowth.cn^               # igrowth媒体广告平台
+
+# 各类广告素材CDN、广告落地页、统计打点
 ||fs-fe-tos.pglistatp-toutiao.com^
-||imhp-sub.uc.cn^
-||ucdn.uc.cn^
-||imuserver-upaas.uc.cn^
-||mavi-user.uc.cn^
-||isimage.uczzd.cn^
-||unpm-upaas.uc.cn^
-||cms.uc.cn^
-||order.sm.cn^
-||csb-cdn.sm.cn^
-||cm.sm.cn^
-||snssdk.com^
-||bytegecko.com^
-||mkt-report.zijieapi.com^
-||mon.zijieapi.com^
-||uads-upaas.uc.cn^
-||ucdr-upaas.uc.cn^
-||uc-novel-shuqireader.com^
 ||f-fe-tos.pglistatp-toutiao.com^
-||ic-service-square-igrowth.com^
-||shqreader-resource.11222.cn^
-||userver-upaas.uc.cn^
-||ucdc2-upaas.uc.cn^
-||hp-cms-uc.uc.cn^
-||iflow.uczzd.cn^
-||mi-ad.uc.cn^
-||bh.uc.cn^
-||wgo.mmstat.com^
-||yunxish.com^
-||uczzd.cn^
-||puds.ucweb.com^
-||umessage-online-zb.uc.cn^
-||api.xiaoshuo1-sm.com^
-||pages.uc.cn^
-||ifal-tos-bytescm.com^
-||zqtekun.uyunad.com^
-||log.qq.com^
-||id.adbug.net^
-||cfg.zztfly.com^
-||mssdk.ok.com^
-||webcast-open.douyin.com^
-||vodcdn.volcdn.com^
-||px.ucweb.com^
-||a.opens.tanx.com^
-||lsp.janpdj.id^
-||cc-service-square.iggrowth.cn^
-||ac-service-square.yunxish.com^
-||mp-sub.uc.cn^
-||mpms-sub.uc.cn^
-||ads-ak.igrowth.cn^
-||lrtb.igrowth.cn^
-||adv.jpg.jd.com^
-||ixl0x.jd-gd.com^
-||igrcv.yunxish.com^
-||opebhs.tanx.com^
-||ibagg.tanx.com^
-||sm.bdimg.com^
-||ius-api.yunxish.com^
-||partner.igrowth.cn^
-||istar.shipuqiu-resource.11222.cn^
-||ads.igrowth.cn^
-||applogios.uc.cn^
-||ad.qq.com^
-||fanmoysp.uc.cn^
-||lbhp-tsp.uc.cn^
-||access.pangolin-sdk-toutiao.com^
-||e.kuaishou.com^
-||fe-fe-cdn.pangolin-sdk-toutiao.com^
-||pangolin-sdk-toutiao1.com^
-||imp.uc.cn^
-||sdk-adx-jd.com^
-||1rtb.net^
-||ssp.igrowth.cn^
-||imvisgis.uc.cn^
-||imnovel.uc.cn^
-||imvisgis-uc.uc.cn^
-||imlaunchwx.uc.cn^
-||ads.ucfly.com^
-||sdk-config.uc.cn^
-||image.ucjr.com^
-||ucad2-upas.uc.cn^
-||uc2-website-sub.uc.cn^
-||uc2-service-square.iggrowth.cn^
-||stars.shuqireader.com^
-||u2-reader.uc.cn^
-||ustory-uppas.uc.cn^
-||upads.ucweb.com^
-||im-apl.uc.cn^
-||img.ucm.uc.cn^
-||coral-model.shuqireader.com^
-||alcdn.com^
-||lf-cdn-tos.bytedcm.com^
-||live-api.dyliveshow.cn^
-||live-api-gateway.dyliveshow.cn^
-||livecast-g-sourcecdn.bytedgecko.com^
-||ssp-sdk-config.uc.cn^
-||partner.uc.cn^
-||cpc-service-square.iggrowth.cn^
-||sf3-fe-tos.pglstatp-toutiao.com^
-||render-resource.11222.cn^
-||mmstat.com^
-||novel.xiaoshuo-sm.com^
-||novel.shuqireader.com^
-||cpc-service-square.58iclick.com^
-||corder.sm.cn^
-||ibaggs.tanx.com^
+||sf3-fe-tos.pglistatp-toutiao.com^
+||ifal-tos-bytescm.com^         # 广告对象存储素材
+||zqtekun.uyunad.com^           # 云广告平台
+||log.qq.com^                   # 腾讯广告埋点上报
+||ad.qq.com^                    # 腾讯广告联盟
+||webcast-open.douyin.com^      # 抖音广告落地页
+||vodcdn.volcdn.com^            # 广告视频CDN
+||px.ucweb.com^                 # UC广告像素打点（曝光统计）
+||lsp.janpdj.id^                # 海外广告追踪
+||adv.jpg.jd.com^               # 京东广告素材
+||ixl0x.jd-gd.com^              # 京东广告跳转
+||sm.bdimg.com^                 # 百度广告素材
+||ius-api.yunxish.com^          # 广告转化统计
+||sdk-adx-jd.com^               # 京东广告SDK对接
+||alcdn.com^                    # 广告静态资源CDN
+||lf-cdn-tos.bytedcm.com^       # 字节广告CDN
+||live-api.dyliveshow.cn^       # 直播广告接口
+||live-api-gateway.dyliveshow.cn^# 直播广告网关
+||livecast-g-source.bytedgecko.com^ # 字节直播广告素材
+||render-resource.11222.cn^     # 广告页面渲染资源
+||mmstat.com^                   # 第三方流量广告统计
+||novel.xiaoshuo1-sm.com^       # 小说广告落地页
+||novel.shuqireader.com^        # 书旗广告页面
+||cpc-service-square.58iclick.com^ # 点击付费广告服务
 ||f2-fe-tos.pglistatp-toutiao.com^
-||filters.actividy.com^
-||jscdn.actividy.com^
-||filters.actividy.org^
-||zlink.ugdk.cn^
-||profile.gc-gale.com^
-||sm.cn^
 
-
-
-
-
-
-
-
-
-
-
+# JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）
+||filters.actividy.com^         # 广告JS脚本
+||jscdn.actividy.com^           # 广告JS资源CDN
+||filters.actividy.org^         # 广告JS脚本
+||cncd.jsdeliver.net^           # 托管广告JS，渲染内嵌广告
+||zlink.ugdk.cn^                # 广告短链跳转域名
+||profile.gc-gale.com^          # 海外广告用户画像追踪
