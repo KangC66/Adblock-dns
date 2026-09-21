@@ -154,7 +154,7 @@
 0.0.0.0 mon.zijieapi.com
 0.0.0.0 uads-upaas.uc.cn
 0.0.0.0 ucdr-upaas.uc.cn
-
+0.0.0.0 uc-novel-shuqireader.com
 
 
 
