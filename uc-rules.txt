@@ -19,7 +19,7 @@
 ||uads-upaas.uc.cn^
 ||ucdr-upaas.uc.cn^
 ||uc-novel-shuqireader.com^
-||f-fe-pg-liststtp-toutiao.com^
+||f-fe-tos.pglistatp-toutiao.com^
 ||ic-service-square-igrowth.com^
 ||shqreader-resource.11222.cn^
 ||userver-upaas.uc.cn^
@@ -27,6 +27,9 @@
 ||hp-cms-uc.uc.cn^
 ||iflow.uczzd.cn^
 ||mi-ad.uc.cn^
+||bh.uc.cn^
+||wgo.mmstat.com^
+
 
 
 
