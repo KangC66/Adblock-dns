@@ -142,7 +142,7 @@
 0.0.0.0 ucdn.uc.cn
 0.0.0.0 imuserver-upaas.uc.cn
 0.0.0.0 mavi-user.uc.cn
-
+0.0.0.0 isimage.uczzd.cn
 
 
 
