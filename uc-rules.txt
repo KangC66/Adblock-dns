@@ -9,7 +9,6 @@
 ||api.xiaoshuo1-sm.com^$important         # 小说场景阿里妈妈广告接口
 ||corder.sm.cn^$important                 # 广告点击上报
 ||sm.cn^$important                        # 阿里妈妈主域名
-
 # UC书旗广告SDK、广告业务域名
 ||sp-adx-config.uc.cn^$important          # UC广告SDK配置
 ||ucweb-site.uc.cn^$important             # UC广告落地页
@@ -50,7 +49,6 @@
 ||applogios.uc.cn^$important              # APP广告埋点日志
 ||uczzd.cn^$important                     # UC广告素材主域名
 ||ums.uc.cn^$important                    # UC用户埋点统计
-
 # 字节穿山甲广告联盟（UC内嵌大量字节广告）
 ||snssdk.com^$important                   # 字节广告SDK
 ||bytegecko.com^$important                # 字节广告行为埋点
@@ -59,12 +57,10 @@
 ||access.pangolin-sdk-toutiao.com^$important # 穿山甲广告SDK接入
 ||fe-fe-cdn.pangolin-sdk-toutiao.com^$important # 穿山甲广告素材CDN
 ||pangolin-sdk-toutiao1.com^$important    # 穿山甲广告请求
-
 # 阿里Tanx广告联盟
 ||a.opens.tanx.com^$important             # Tanx竞价广告
 ||opebhs.tanx.com^$important              # Tanx广告曝光上报
 ||ibagg.tanx.com^$important               # Tanx广告点击统计
-
 # igrowth广告聚合平台
 ||cc-service-square.iggrowth.cn^$important# igrowth广告聚合服务
 ||ac-service-square.yunxish.com^$important# 广告行为数据分析
@@ -76,13 +72,11 @@
 ||partner.igrowth.cn^$important           # igrowth广告合作方
 ||istar.shipuqiu-resource.11222.cn^$important # 广告落地页资源
 ||ads.igrowth.cn^$important               # igrowth广告主请求
-
 # 第三方广告追踪、RTB竞价平台
 ||id.adbug.net^$important                 # Adbug设备指纹广告追踪
 ||cfg.zztfly.com^$important               # 第三方广告配置
 ||1rtb.net^$important                     # RTB实时竞价广告平台
 ||ssp.igrowth.cn^$important               # igrowth媒体广告平台
-
 # 各类广告素材CDN、广告落地页、统计打点
 ||fs-fe-tos.pglistatp-toutiao.com^$important
 ||f-fe-tos.pglistatp-toutiao.com^$important
@@ -111,7 +105,6 @@
 ||novel.shuqireader.com^$important        # 书旗广告页面
 ||cpc-service-square.58iclick.com^$important # 点击付费广告服务
 ||f2-fe-tos.pglistatp-toutiao.com^$important
-
 # JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）
 ||filters.actividy.com^$important         # 广告JS脚本
 ||jscdn.actividy.com^$important           # 广告JS资源CDN
@@ -119,7 +112,6 @@
 ||cncd.jsdeliver.net^$important           # 托管广告JS，渲染内嵌广告
 ||zlink.ugdk.cn^$important                # 广告短链跳转域名
 ||profile.gc-gale.com^$important          # 海外广告用户画像追踪
-
 # 截图新增广告域名（已校验，非阅读核心）
 ||11222.cn^$important
 ||danuoyi.tbcache.com^$important
@@ -131,3 +123,48 @@
 ||sentry.io^$important                    # APP崩溃日志上报
 ||akamai.net^$important                   # 海外CDN广告资源
 ||yunxish.com^$important
+
+# ===================== dns_blocklist.txt 导入补充域名（去重合并） =====================
+||k128-mzstatic.gslb.ksyuncdn.com^$important
+||ff.uc.cn^$important
+||so-h3-v1.sm.cn^$important
+||atoken.m.taobao.com^$important
+||qtlcdn.com^$important
+||cdngslb.com^$important
+||ksyuncdn.com^$important
+||zzd.sm.cn^$important
+||gw.alipayobjects.com^$important
+||hzshudian.com^$important
+||tdnsstic1.cn^$important
+||auweb.cn^$important
+||ad.alibabacorp.com^$important
+||huodong.taobao.com^$important
+||napi.uc.cn^$important
+||payment.uc.cn^$important
+||cms.uc.cn^$important
+||bytedns1.com^$important
+||dyliveshow.cn^$important
+||pangolin-sdk-toutiao.com^$important
+||integralwall.baidu.com^$important
+||advertisement.alibaba-inc.com.gds.alibabadns.com^$important
+||api.sm.cn^$important
+||iflow.uc.cn^$important
+||navigis.uc.cn^$important
+||vps.uc.cn^$important
+||alibabadns.com^$important
+||alibaba-inc.com^$important
+||yximgs.com^$important
+||adjs-default-scd.e.kuaishou.com^$important
+||biz.quark.cn^$important
+||so.m.sm.cn^$important
+||website-sub.uc.cn^$important
+||dayu-img.uc.cn^$important
+||pangolin-sdk-toutiao-b.com^$important
+||pull-x3-f5.douyinliving.com^$important
+||pull-x3-h5-hls.douyincdn.com^$important
+||pull-x2-h5-hls.douyincdn.com^$important
+||na61-userver-upaas.uc.cn^$important
+||douyincdn.com^$important
+||qiqu-img.uc.cn^$important
+||bj2cu.u3.ucweb.com^$important
+||w.alikunlun.com^$important
