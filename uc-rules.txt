@@ -119,19 +119,16 @@
 ||u3.ucweb.com^$important
 ||zblb.uc123.com^$important
 ||ad.alibabacorp.com.gds.alibabadns.com^$important
-||k128-inapp.gslb.ksyuncdn.com^$important
 ||sentry.io^$important                    # APP崩溃日志上报
 ||akamai.net^$important                   # 海外CDN广告资源
 ||yunxish.com^$important
 
 # ===================== dns_blocklist.txt 导入补充域名（去重合并） =====================
-||k128-mzstatic.gslb.ksyuncdn.com^$important
 ||ff.uc.cn^$important
 ||so-h3-v1.sm.cn^$important
 ||atoken.m.taobao.com^$important
 ||qtlcdn.com^$important
 ||cdngslb.com^$important
-||ksyuncdn.com^$important
 ||zzd.sm.cn^$important
 ||gw.alipayobjects.com^$important
 ||hzshudian.com^$important
@@ -151,7 +148,6 @@
 ||iflow.uc.cn^$important
 ||navigis.uc.cn^$important
 ||vps.uc.cn^$important
-||alibabadns.com^$important
 ||alibaba-inc.com^$important
 ||yximgs.com^$important
 ||adjs-default-scd.e.kuaishou.com^$important
