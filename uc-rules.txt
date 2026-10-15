@@ -8,10 +8,8 @@
 ! ---- 阿里妈妈 / sm.cn 广告联盟 ----
 ||api.xiaoshuo1-sm.com^$important
 ||novel.xiaoshuo1-sm.com^$important
-||sm.cn^$important
 
 ! ---- UC书旗 / uc.cn / ucweb 广告业务 ----
-||applogios.uc.cn^$important
 ||bh.uc.cn^$important
 ||c.uc.cn^$important
 ||cms.uc.cn^$important
@@ -54,7 +52,6 @@
 ||ucad2-upas.uc.cn^$important
 ||ucdn.uc.cn^$important
 ||ucweb-site.uc.cn^$important
-||uczzd.cn^$important
 ||umessage-online-zb.uc.cn^$important
 ||ums.uc.cn^$important
 ||unpm-upaas.uc.cn^$important
@@ -157,7 +154,6 @@
 ||bytegecko.com^$important
 ||cdngslb.com^$important
 ||doc88.com^$important
-||douyincdn.com^$important
 ||dyliveshow.cn^$important
 ||edgesuite.net^$important
 ||hzshudian.com^$important
@@ -166,9 +162,6 @@
 ||jsdelivr.net^$important
 ||ksyuncdn.com^$important
 ||mmstat.com^$important
-||pangolin-sdk-toutiao-b.com^$important
-||pangolin-sdk-toutiao.com^$important
-||pangolin-sdk-toutiao1.com^$important
 ||qrcdn.net^$important
 ||qtlcdn.com^$important
 ||queniusz.com^$important
