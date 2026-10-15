@@ -1,179 +1,167 @@
-! ===================== UC书旗小说广告拦截【合并全集 v2】=====================
-! 语法：||域名^ 拦截该域名及其全部子域名DNS解析
-! $important = 强制高优先级，优先拦截，不受其他白名单影响
-! 已合并：用户手写规则 + dns_blocklist.txt 原始 81 行
-! 已剔除：被父域名覆盖的子域名、重复项
-! 已强制排除：napi.uc.cn / drama-api.uc.cn / story-api.uc.cn / coral-task.uc.cn（核心业务，禁止拉黑）
+# ===================== UC书旗小说广告拦截【合并全集｜已对白名单做差集过滤】=====================
+# 语法：||域名^ 拦截该域名及其全部子域名DNS解析
+# $important = 强制高优先级，优先拦截，不受其他白名单影响
+# 只拦截广告SDK、广告素材、广告上报、广告跳转；不影响小说正文阅读
+# ⚠️已移除dns_allowlist.txt白名单内出现的域名：
+# zzd.sm.cn、umessage-online-zb.uc.cn、iflow.uczzd.cn、applogios.uc.cn、douyincdn.com
+# 禁止拉黑核心业务：napi.uc.cn、drama-api.uc.cn、story-api.uc.cn、coral-task.uc.cn
 
-! ---- 阿里妈妈 / sm.cn 广告联盟 ----
+# 阿里妈妈广告联盟（UC小说最主要广告源）
+||order.sm.cn^$important
+||csb-cdn.sm.cn^$important
+||cm.sm.cn^$important
 ||api.xiaoshuo1-sm.com^$important
-||novel.xiaoshuo1-sm.com^$important
+||corder.sm.cn^$important
+||sm.cn^$important
 
-! ---- UC书旗 / uc.cn / ucweb 广告业务 ----
-||bh.uc.cn^$important
-||c.uc.cn^$important
-||cms.uc.cn^$important
-||dayu-img.uc.cn^$important
-||fanmoysp.uc.cn^$important
-||ff.uc.cn^$important
+# UC书旗广告SDK、广告业务域名
+||sp-adx-config.uc.cn^$important
+||ucweb-site.uc.cn^$important
+||imhp-sub.uc.cn^$important
+||ucdn.uc.cn^$important
+||imuserver-upaas.uc.cn^$important
+||mavi-user.uc.cn^$important
+||isimage.uczzd.cn^$important
+||unpm-upaas.uc.cn^$important
 ||hp-cms-uc.uc.cn^$important
-||iflow.uc.cn^$important
+||mi-ad.uc.cn^$important
+||bh.uc.cn^$important
+||puds.ucweb.com^$important
+||pages.uc.cn^$important
+||ucad2-upas.uc.cn^$important
+||uc2-service-square.iggrowth.cn^$important
+||stars.shuqireader.com^$important
+||u2-reader.uc.cn^$important
+||ustory-uppas.uc.cn^$important
+||upads.ucweb.com^$important
 ||im-apl.uc.cn^$important
 ||img.ucm.uc.cn^$important
-||imhp-sub.uc.cn^$important
-||imlaunchwx.uc.cn^$important
-||imnovel.uc.cn^$important
-||imp.uc.cn^$important
-||imuserver-upaas.uc.cn^$important
-||imvisgis-uc.uc.cn^$important
-||imvisgis.uc.cn^$important
-||lbhp-tsp.uc.cn^$important
-||mavi-user.uc.cn^$important
-||mi-ad.uc.cn^$important
-||mp-sub.uc.cn^$important
-||mpms-sub.uc.cn^$important
-||na61-userver-upaas.uc.cn^$important
-||navigis.uc.cn^$important
-||pages.uc.cn^$important
-||partner.uc.cn^$important
-||payment.uc.cn^$important
-||peco-img-sz.uc.cn^$important
-||puds.ucweb.com^$important
-||px.ucweb.com^$important
-||qiqu-img.uc.cn^$important
-||render.uc.cn^$important
-||s-adashx.ut.uc.cn^$important
-||sdk-config.uc.cn^$important
-||sp-adx-config.uc.cn^$important
+||coral-model.shuqireader.com^$important
 ||ssp-sdk-config.uc.cn^$important
-||u2-reader.uc.cn^$important
-||u3.ucweb.com^$important
-||uc-ai-applet.uc.cn^$important
-||ucad2-upas.uc.cn^$important
-||ucdn.uc.cn^$important
-||ucweb-site.uc.cn^$important
-||umessage-online-zb.uc.cn^$important
+||partner.uc.cn^$important
+||imvisgis.uc.cn^$important
+||imnovel.uc.cn^$important
+||imvisgis-uc.uc.cn^$important
+||imlaunchwx.uc.cn^$important
+||ads.ucfly.com^$important
+||sdk-config.uc.cn^$important
+||image.ucjr.com^$important
+||fanmoysp.uc.cn^$important
+||lbhp-tsp.uc.cn^$important
+||imp.uc.cn^$important
+||uczzd.cn^$important
 ||ums.uc.cn^$important
-||unpm-upaas.uc.cn^$important
-||upads.ucweb.com^$important
-||ustory-uppas.uc.cn^$important
-||v.uc.cn^$important
-||vps.uc.cn^$important
-||website-sub.uc.cn^$important
-||yes-file.uc.cn^$important
 
-! ---- 书旗 shuqireader 主域 ----
-||shuqireader.com^$important
-
-! ---- 字节穿山甲 / 字节系 CDN ----
-||f-fe-tos.pglistatp-toutiao.com^$important
-||f2-fe-tos.pglistatp-toutiao.com^$important
-||fs-fe-tos.pglistatp-toutiao.com^$important
-||lf-cdn-tos.bytedcm.com^$important
-||livecast-g-source.bytedgecko.com^$important
+# 字节穿山甲广告联盟（UC内嵌大量字节广告）
+||snssdk.com^$important
+||bytegecko.com^$important
 ||mkt-report.zijieapi.com^$important
 ||mon.zijieapi.com^$important
-||pull-x3-f5.douyinliving.com^$important
-||sf3-fe-tos.pglistatp-toutiao.com^$important
-||vodcdn.volcdn.com^$important
+||access.pangolin-sdk-toutiao.com^$important
+||fe-fe-cdn.pangolin-sdk-toutiao.com^$important
+||pangolin-sdk-toutiao1.com^$important
 
-! ---- Tanx / igrowth / yunxish 广告聚合 ----
-||1rtb.net^$important
+# 阿里Tanx广告联盟
 ||a.opens.tanx.com^$important
-||ads-ak.igrowth.cn^$important
-||ads.igrowth.cn^$important
-||cc-service-square.iggrowth.cn^$important
-||ibagg.tanx.com^$important
-||lrtb.igrowth.cn^$important
 ||opebhs.tanx.com^$important
+||ibagg.tanx.com^$important
+
+# igrowth广告聚合平台
+||cc-service-square.iggrowth.cn^$important
+||ac-service-square.yunxish.com^$important
+||mp-sub.uc.cn^$important
+||mpms-sub.uc.cn^$important
+||ads-ak.igrowth.cn^$important
+||lrtb.igrowth.cn^$important
+||igrcv.yunxish.com^$important
 ||partner.igrowth.cn^$important
+||istar.shipuqiu-resource.11222.cn^$important
+||ads.igrowth.cn^$important
+
+# 第三方广告追踪、RTB竞价平台
+||id.adbug.net^$important
+||1rtb.net^$important
 ||ssp.igrowth.cn^$important
-||uc2-service-square.iggrowth.cn^$important
+
+# 各类广告素材CDN、广告落地页、统计打点
+||fs-fe-tos.pglistatp-toutiao.com^$important
+||f-fe-tos.pglistatp-toutiao.com^$important
+||sf3-fe-tos.pglistatp-toutiao.com^$important
+||ifal-tos-bytescm.com^$important
+||zqtekun.uyunad.com^$important
+||log.qq.com^$important
+||ad.qq.com^$important
+||webcast-open.douyin.com^$important
+||vodcdn.volcdn.com^$important
+||px.ucweb.com^$important
+||lsp.janpdj.id^$important
+||adv.jpg.jd.com^$important
+||ixl0x.jd-gd.com^$important
+||sm.bdimg.com^$important
+||ius-api.yunxish.com^$important
+||sdk-adx-jd.com^$important
+||alcdn.com^$important
+||lf-cdn-tos.bytedcm.com^$important
+||live-api.dyliveshow.cn^$important
+||live-api-gateway.dyliveshow.cn^$important
+||livecast-g-source.bytedgecko.com^$important
+||render-resource.11222.cn^$important
+||mmstat.com^$important
+||novel.xiaoshuo1-sm.com^$important
+||novel.shuqireader.com^$important
+||cpc-service-square.58iclick.com^$important
+||f2-fe-tos.pglistatp-toutiao.com^$important
+
+# JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）
+||filters.actividy.com^$important
+||jscdn.actividy.com^$important
+||filters.actividy.org^$important
+||cncd.jsdeliver.net^$important
+||zlink.ugdk.cn^$important
+||profile.gc-gale.com^$important
+
+# 截图新增广告域名（已校验，非阅读核心）
+||11222.cn^$important
+||danuoyi.tbcache.com^$important
+||shuqireader.com^$important
+||u3.ucweb.com^$important
+||zblb.uc123.com^$important
+||sentry.io^$important
+||akamai.net^$important
 ||yunxish.com^$important
 
-! ---- 第三方广告追踪 / RTB / 统计 ----
-||ad.qq.com^$important
-||adv.jpg.jd.com^$important
-||cfg.zztfly.com^$important
-||cncd.jsdeliver.net^$important
-||filters.actividy.com^$important
-||filters.actividy.org^$important
-||id.adbug.net^$important
-||ixl0x.jd-gd.com^$important
-||jscdn.actividy.com^$important
-||log.qq.com^$important
-||lsp.janpdj.id^$important
-||profile.gc-gale.com^$important
-||sm.bdimg.com^$important
-||zlink.ugdk.cn^$important
-||zqtekun.uyunad.com^$important
-
-! ---- 广告素材 CDN / 落地页 ----
-||ad.alibabacorp.com^$important
-||ad.alibabacorp.com.gds.alibabadns.com^$important
-||advertisement.alibaba-inc.com.gds.alibabadns.com^$important
-||danuoyi.tbcache.com^$important
-||gw.alipayobjects.com^$important
-||w.alikunlun.com^$important
-
-! ---- 夸克 / UC 其他业务拦截 ----
-||biz.quark.cn^$important
-||yes-file.quark.cn^$important
-
-! ---- B站 / 快手 附带拦截 ----
-||ad.v6.kuaishou.cn^$important
-||adjs-default-scd.e.kuaishou.com^$important
+# ===================== dns_blocklist.txt 导入补充域名（已去重+剔除白名单域名） =====================
+||ff.uc.cn^$important
 ||atoken.m.taobao.com^$important
-||broadcast.chat.bilibili.com^$important
-||cm.bilibili.com^$important
-||gaoneng.bilibili.com^$important
-||h-adashx.ut.cainiao.com^$important
-||huodong.taobao.com^$important
-||integralwall.baidu.com^$important
-||mdap.alipay.com^$important
-||pay.bilibili.com^$important
-
-! ---- DNS 系统域（调试/反向解析，按需保留） ----
-||_tcp.bogon^$important
-||in-addr.arpa^$important
-||resolver.arpa^$important
-
-! ---- 其他未归类 ----
-||11222.cn^$important
-||58cdn.com.cn^$important
-||58iclick.com^$important
-||adqtt.net^$important
-||ads.ucfly.com^$important
-||akadns.net^$important
-||akamai.net^$important
-||alcdn.com^$important
-||alibaba-inc.com^$important
-||auweb.cn^$important
-||biligame.com^$important
-||bytedns1.com^$important
-||bytegecko.com^$important
-||cdngslb.com^$important
-||doc88.com^$important
-||dyliveshow.cn^$important
-||edgesuite.net^$important
-||hzshudian.com^$important
-||ifal-tos-bytescm.com^$important
-||image.ucjr.com^$important
-||jsdelivr.net^$important
-||ksyuncdn.com^$important
-||mmstat.com^$important
-||qrcdn.net^$important
 ||qtlcdn.com^$important
-||queniusz.com^$important
-||sdk-adx-jd.com^$important
-||sentry.io^$important
-||shifen.com^$important
-||snssdk.com^$important
+||cdngslb.com^$important
+||gw.alipayobjects.com^$important
+||hzshudian.com^$important
 ||tdnsstic1.cn^$important
-||tdnsv5.com^$important
-||webcast-open.douyin.com^$important
-||wsdvs.com^$important
-||ydycdn.com^$important
+||auweb.cn^$important
+||ad.alibabacorp.com^$important
+||huodong.taobao.com^$important
+||cms.uc.cn^$important
+||bytedns1.com^$important
+||dyliveshow.cn^$important
+||pangolin-sdk-toutiao.com^$important
+||integralwall.baidu.com^$important
+||api.sm.cn^$important
+||iflow.uc.cn^$important
+||navigis.uc.cn^$important
+||vps.uc.cn^$important
+||alibaba-inc.com^$important
 ||yximgs.com^$important
-||zblb.uc123.com^$important
-
+||adjs-default-scd.e.kuaishou.com^$important
+||biz.quark.cn^$important
+||so.m.sm.cn^$important
+||website-sub.uc.cn^$important
+||dayu-img.uc.cn^$important
+||pangolin-sdk-toutiao-b.com^$important
+||pull-x3-f5.douyinliving.com^$important
+||pull-x3-h5-hls.douyincdn.com^$important
+||pull-x2-h5-hls.douyincdn.com^$important
+||na61-userver-upaas.uc.cn^$important
+||qiqu-img.uc.cn^$important
+||bj2cu.u3.ucweb.com^$important
+||w.alikunlun.com^$important
