@@ -6,9 +6,7 @@
 # zzd.sm.cn、umessage-online-zb.uc.cn、iflow.uczzd.cn、applogios.uc.cn、douyincdn.com
 # 禁止拉黑核心业务：napi.uc.cn、drama-api.uc.cn、story-api.uc.cn、coral-task.uc.cn
 
-cucc.tencent.gslb.adqtt.net   # 联通
-cmcc.tencent.gslb.adqtt.net   # 移动
-ctcc.tencent.gslb.adqtt.net   # 电信
+||*.gslb.adqtt.net^
 ||ad.alibabacorp.com.gds.alibabadns.com^$important
 
 # 阿里妈妈广告联盟（UC小说最主要广告源）
