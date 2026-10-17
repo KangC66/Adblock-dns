@@ -129,10 +129,8 @@
 
 # ===================== dns_blocklist.txt 导入补充域名（已去重+剔除白名单域名） =====================
 ||ff.uc.cn^$important
-||atoken.m.taobao.com^$important
 ||qtlcdn.com^$important
 ||cdngslb.com^$important
-||gw.alipayobjects.com^$important
 ||hzshudian.com^$important
 ||tdnsstic1.cn^$important
 ||auweb.cn^$important
