@@ -130,7 +130,6 @@
 ||ff.uc.cn^$important
 ||qtlcdn.com^$important
 ||hzshudian.com^$important
-||tdnsstic1.cn^$important
 ||auweb.cn^$important
 ||ad.alibabacorp.com^$important
 ||huodong.taobao.com^$important
