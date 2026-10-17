@@ -120,7 +120,6 @@
 
 # 截图新增广告域名（已校验，非阅读核心）
 ||11222.cn^$important
-||danuoyi.tbcache.com^$important
 ||u3.ucweb.com^$important
 ||zblb.uc123.com^$important
 ||sentry.io^$important
