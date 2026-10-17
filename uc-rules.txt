@@ -13,7 +13,6 @@
 
 # 阿里妈妈广告联盟（UC小说最主要广告源）
 ||order.sm.cn^$important
-||csb-cdn.sm.cn^$important
 ||cm.sm.cn^$important
 ||api.xiaoshuo1-sm.com^$important
 ||corder.sm.cn^$important
@@ -23,7 +22,6 @@
 ||sp-adx-config.uc.cn^$important
 ||ucweb-site.uc.cn^$important
 ||imhp-sub.uc.cn^$important
-||ucdn.uc.cn^$important
 ||imuserver-upaas.uc.cn^$important
 ||mavi-user.uc.cn^$important
 ||isimage.uczzd.cn^$important
@@ -61,7 +59,6 @@
 ||bytegecko.com^$important
 ||mkt-report.zijieapi.com^$important
 ||mon.zijieapi.com^$important
-||fe-fe-cdn.pangolin-sdk-toutiao.com^$important
 
 # 阿里Tanx广告联盟
 ||a.opens.tanx.com^$important
@@ -102,7 +99,6 @@
 ||sm.bdimg.com^$important
 ||ius-api.yunxish.com^$important
 ||sdk-adx-jd.com^$important
-||alcdn.com^$important
 ||lf-cdn-tos.bytedcm.com^$important
 ||live-api.dyliveshow.cn^$important
 ||live-api-gateway.dyliveshow.cn^$important
