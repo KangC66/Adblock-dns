@@ -144,7 +144,6 @@
 ||iflow.uc.cn^$important
 ||navigis.uc.cn^$important
 ||vps.uc.cn^$important
-||alibaba-inc.com^$important
 ||yximgs.com^$important
 ||adjs-default-scd.e.kuaishou.com^$important
 ||biz.quark.cn^$important
