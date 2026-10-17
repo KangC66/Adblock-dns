@@ -32,3 +32,4 @@ douyincdn.com
 api-access.pangolin-sdk-toutiao1.com
 applogios.uc.cn
 a.amap.com
+namtso1.shuqireader.com
