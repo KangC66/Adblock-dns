@@ -25,7 +25,6 @@ ks-cdn.com
 iflow.uczzd.cn
 m-all.uczzd.cn
 m-api.uc.cn
-zzd.sm.cn
 tuyacn.com
 elemecdn.com.w.cdngslb.com
 weixin.qq.com.cn
