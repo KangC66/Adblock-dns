@@ -6,6 +6,7 @@
 # zzd.sm.cn、umessage-online-zb.uc.cn、iflow.uczzd.cn、applogios.uc.cn、douyincdn.com
 # 禁止拉黑核心业务：napi.uc.cn、drama-api.uc.cn、story-api.uc.cn、coral-task.uc.cn
 
+||zzd.sm.cn^
 ||*.gslb.adqtt.net^
 ||ad.alibabacorp.com.gds.alibabadns.com^$important
 
