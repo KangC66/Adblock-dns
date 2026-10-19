@@ -1,11 +1,15 @@
+# ============================================================
+# AdGuard Home 全量合并规则（UC书旗 + 通用广告拦截）
+# 合并时间：2026-10-20
+# 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
+# ============================================================
+
+
 # ===================== UC书旗小说广告拦截【合并全集｜已对白名单做差集过滤】=====================
 # 语法：||域名^ 拦截该域名及其全部子域名DNS解析
 # $important = 强制高优先级，优先拦截，不受其他白名单影响
-# 只拦截广告SDK、广告素材、广告上报、广告跳转；不影响小说正文阅读
-# ⚠️已移除dns_allowlist.txt白名单内出现的域名：
-# zzd.sm.cn、umessage-online-zb.uc.cn、iflow.uczzd.cn、applogios.uc.cn、douyincdn.com
-# 禁止拉黑核心业务：napi.uc.cn、drama-api.uc.cn、story-api.uc.cn、coral-task.uc.cn
 
+! ===== 通用追踪补漏（2026-10-20 测试新增）=====
 ||assets.adobedtm.com^
 ||app.appsflyer.com^
 ||i.logrocket.com^
@@ -17,7 +21,7 @@
 ||cookiepro.com^
 ||privacy-mgmt.com^
 
-
+! ===== 阿里妈妈/淘宝系广告 =====
 ||yes-file.quark.cn^$important
 ||szbalbg.uae2grp.uc.cn^$important
 ||acs.m.taobao.com^$important
@@ -27,14 +31,14 @@
 ||*.gslb.adqtt.net^
 ||ad.alibabacorp.com.gds.alibabadns.com^$important
 
-# 阿里妈妈广告联盟（UC小说最主要广告源）
+! ===== 阿里妈妈广告联盟（UC小说最主要广告源）=====
 ||order.sm.cn^$important
 ||cm.sm.cn^$important
 ||api.xiaoshuo1-sm.com^$important
 ||corder.sm.cn^$important
 ||sm.cn^$important
 
-# UC书旗广告SDK、广告业务域名
+! ===== UC书旗广告SDK、广告业务域名 =====
 ||sp-adx-config.uc.cn^$important
 ||ucweb-site.uc.cn^$important
 ||imhp-sub.uc.cn^$important
@@ -70,18 +74,18 @@
 ||imp.uc.cn^$important
 ||ums.uc.cn^$important
 
-# 字节穿山甲广告联盟（UC内嵌大量字节广告）
+! ===== 字节穿山甲广告联盟（UC内嵌大量字节广告）=====
 ||snssdk.com^$important
 ||bytegecko.com^$important
 ||mkt-report.zijieapi.com^$important
 ||mon.zijieapi.com^$important
 
-# 阿里Tanx广告联盟
+! ===== 阿里Tanx广告联盟 =====
 ||a.opens.tanx.com^$important
 ||opebhs.tanx.com^$important
 ||ibagg.tanx.com^$important
 
-# igrowth广告聚合平台
+! ===== igrowth广告聚合平台 =====
 ||cc-service-square.iggrowth.cn^$important
 ||ac-service-square.yunxish.com^$important
 ||mp-sub.uc.cn^$important
@@ -93,12 +97,12 @@
 ||istar.shipuqiu-resource.11222.cn^$important
 ||ads.igrowth.cn^$important
 
-# 第三方广告追踪、RTB竞价平台
+! ===== 第三方广告追踪、RTB竞价平台 =====
 ||id.adbug.net^$important
 ||1rtb.net^$important
 ||ssp.igrowth.cn^$important
 
-# 各类广告素材CDN、广告落地页、统计打点
+! ===== 各类广告素材CDN、广告落地页、统计打点 =====
 ||fs-fe-tos.pglistatp-toutiao.com^$important
 ||f-fe-tos.pglistatp-toutiao.com^$important
 ||sf3-fe-tos.pglistatp-toutiao.com^$important
@@ -126,7 +130,7 @@
 ||cpc-service-square.58iclick.com^$important
 ||f2-fe-tos.pglistatp-toutiao.com^$important
 
-# JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）
+! ===== JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）=====
 ||filters.actividy.com^$important
 ||jscdn.actividy.com^$important
 ||filters.actividy.org^$important
@@ -134,7 +138,7 @@
 ||zlink.ugdk.cn^$important
 ||profile.gc-gale.com^$important
 
-# 截图新增广告域名（已校验，非阅读核心）
+! ===== 截图新增广告域名（已校验，非阅读核心）=====
 ||11222.cn^$important
 ||u3.ucweb.com^$important
 ||zblb.uc123.com^$important
@@ -142,7 +146,7 @@
 ||akamai.net^$important
 ||yunxish.com^$important
 
-# ===================== dns_blocklist.txt 导入补充域名（已去重+剔除白名单域名） =====================
+! ===== dns_blocklist.txt 导入补充域名（已去重+剔除白名单域名）=====
 ||ff.uc.cn^$important
 ||qtlcdn.com^$important
 ||hzshudian.com^$important
@@ -170,3 +174,362 @@
 ||qiqu-img.uc.cn^$important
 ||bj2cu.u3.ucweb.com^$important
 ||w.alikunlun.com^$important
+
+
+# ============================================================
+# 以下为通用广告拦截（adblocktester.pages.dev 全量测试补漏）
+# ============================================================
+
+
+# ===== 主要广告网络 =====
+
+! --- Google Ads / DoubleClick ---
+||googlesyndication.com^
+||doubleclick.net^
+||googleadservices.com^
+||adservice.google.com^
+||adservice.google.de^
+
+! --- Amazon Ads ---
+||amazon-adsystem.com^
+||analytics.s3.amazonaws.com^
+||analyticsengine.s3.amazonaws.com^
+||adtago.s3.amazonaws.com^
+||advice-ads.s3.amazonaws.com^
+
+! --- Microsoft Advertising ---
+||bat.bing.com^
+||c.bing.com^
+||msadsscale.microsoft.com^
+||adsdk.microsoft.com^
+||ads.microsoft.com^
+
+! --- Yahoo / Verizon / AOL ---
+||udc.yahoo.com^
+||udcm.yahoo.com^
+||analytics.query.yahoo.com^
+||ads.yahoo.com^
+||log.fc.yahoo.com^
+||beap-bc.yahoo.com^
+||analytics.yahoo.com^
+||partnerads.ysm.yahoo.com^
+||gemini.yahoo.com^
+||adtech.yahooinc.com^
+
+! --- Criteo ---
+||criteo.com^
+||criteo.net^
+
+! --- Taboola ---
+||taboola.com^
+
+! --- Outbrain ---
+||outbrain.com^
+
+! --- Media.net ---
+||contextual.media.net^
+||static.media.net^
+||media.net^
+
+
+# ===== 程序化广告与实时竞价 =====
+
+! --- PubMatic ---
+||hbopenbid.pubmatic.com^
+||image2.pubmatic.com^
+||ow.pubmatic.com^
+||simage2.pubmatic.com^
+
+! --- Magnite / Rubicon ---
+||rubiconproject.com^
+
+! --- OpenX ---
+||openx.net^
+
+! --- Xandr / AppNexus ---
+||adnxs.com^
+
+! --- The Trade Desk ---
+||match.adsrvr.org^
+||insight.adsrvr.org^
+||js.adsrvr.org^
+
+! --- Index Exchange / Casale ---
+||indexww.com^
+||casalemedia.com^
+
+! --- Sovrn / Lijit ---
+||lijit.com^
+
+! --- Bidswitch / Sharethrough ---
+||bidswitch.net^
+||sharethrough.com^
+
+! --- Adform ---
+||adform.net^
+
+
+# ===== 分析与遥测 =====
+
+! --- Google Analytics / Tag Manager ---
+||google-analytics.com^
+||googletagmanager.com^
+||analytics.google.com^
+
+! --- Microsoft Clarity ---
+||clarity.ms^
+
+! --- Adobe Experience Cloud ---
+||demdex.net^
+||sstats.adobe.com^
+||everesttech.net^
+
+! --- Hotjar ---
+||hotjar.com^
+||hotjar.io^
+
+! --- Segment ---
+||segment.com^
+||segment.io^
+||segmentapis.com^
+
+! --- Mixpanel ---
+||mxpnl.com^
+||mixpanel.com^
+
+! --- Amplitude ---
+||amplitude.com^
+
+! --- FullStory ---
+||fullstory.com^
+
+! --- Lucky Orange ---
+||luckyorange.com^
+||luckyorange.net^
+
+! --- Mouseflow ---
+||mouseflow.com^
+
+! --- Crazy Egg / Heap ---
+||crazyegg.com^
+||heapanalytics.com^
+
+! --- Plausible / Matomo ---
+||plausible.io^
+||matomo.cloud^
+||stats.wp.com^
+
+
+# ===== 社交平台跟踪像素 =====
+
+! --- Meta / Facebook ---
+||facebook.net^
+||pixel.facebook.com^
+||an.facebook.com^
+||graph.facebook.com^
+||analytics.facebook.com^
+
+! --- TikTok ---
+||tiktok.com^
+||tiktokv.com^
+||byteoversea.com^
+
+! --- X / Twitter ---
+||ads-api.twitter.com^
+||analytics.twitter.com^
+||static.ads-twitter.com^
+
+! --- Pinterest ---
+||ads.pinterest.com^
+||analytics.pinterest.com^
+||trk.pinterest.com^
+||log.pinterest.com^
+
+! --- Reddit ---
+||alb.reddit.com^
+||events.reddit.com^
+||pixel.reddit.com^
+||events.redditmedia.com^
+
+! --- Snapchat ---
+||tr.snapchat.com^
+||adsapi.snapchat.com^
+||app-analytics.snapchat.com^
+||sc-static.net^
+
+! --- LinkedIn ---
+||px.ads.linkedin.com^
+||analytics.pointdrive.linkedin.com^
+||snap.licdn.com^
+||ads.linkedin.com^
+
+! --- Quora / Nextdoor ---
+||q.quora.com^
+||tracking.nextdoor.com^
+||us-tracking.nextdoor.com^
+
+
+# ===== 移动应用广告与归因 =====
+
+! --- Adjust ---
+||adjust.com^
+||adjust.net^
+||adjust.world^
+
+! --- AppsFlyer ---
+||appsflyer.com^
+||appsflyersdk.com^
+
+! --- Branch ---
+||branch.io^
+
+! --- Kochava ---
+||kochava.com^
+
+! --- Unity Ads ---
+||unityads.unity3d.com^
+||collect.analytics.unity3d.com^
+
+! --- AppLovin ---
+||applovin.com^
+
+! --- Mintegral / Rayjump ---
+||mintegral.com^
+||rayjump.com^
+
+! --- ironSource / Fyber / Inneractive ---
+||supersonicads.com^
+||inner-active.mobi^
+||nexage.com^
+
+! --- Chartboost ---
+||chartboost.com^
+
+! --- AdColony ---
+||adcolony.com^
+
+! --- Vungle / Liftoff ---
+||vungle.com^
+
+! --- InMobi ---
+||inmobi.com^
+||inmobicdn.net^
+
+
+# ===== 错误监控、RUM 与会话回放 =====
+
+! --- Sentry ---
+||sentry-cdn.com^
+||getsentry.com^
+
+! --- Bugsnag ---
+||bugsnag.com^
+
+! --- New Relic ---
+||newrelic.com^
+||nr-data.net^
+
+! --- Rollbar / Raygun ---
+||rollbar.com^
+||raygun.io^
+||datadoghq.com^
+
+! --- LogRocket ---
+||logrocket.io^
+||lr-ingest.com^
+
+
+# ===== 联盟营销与转化跟踪 =====
+
+! --- Awin / Zanox ---
+||zanox-affiliate.de^
+||zanox.com^
+
+! --- Rakuten / LinkShare ---
+||linksynergy.com^
+
+! --- Webgains / Partnerize ---
+||webgains.org^
+||myvisualiq.net^
+||prf.hn^
+
+! --- CJ / ShareASale / Impact ---
+||emjcd.com^
+||anrdoezrs.net^
+||shareasale.com^
+
+! --- Tradedoubler ---
+||tradedoubler.com^
+
+
+# ===== 设备、电视与厂商遥测 =====
+
+! --- Xiaomi ---
+||ad.xiaomi.com^
+||mistat.xiaomi.com^
+
+! --- Samsung ---
+||samsunghealthcn.com^
+||smetrics.samsung.com^
+||samsungads.com^
+||samsungacr.com^
+||112.2o7.net^
+
+! --- Huawei ---
+||hicloud.com^
+
+! --- Oppo / Realme / OnePlus ---
+||oppomobile.com^
+||realmemobile.com^
+||realme.com^
+||oneplus.cn^
+
+! --- Apple Ads / metrics ---
+||api-adservices.apple.com^
+||metrics.icloud.com^
+||metrics.mzstatic.com^
+||books-analytics-events.apple.com^
+||weather-analytics-events.apple.com^
+||notes-analytics-events.apple.com^
+||securemetrics.apple.com^
+||iadsdk.apple.com^
+||stocks-analytics-events.apple.com^
+||news-events.apple.com^
+
+! --- Roku / LG / Vizio ---
+||roku.com^
+||lgappstv.com^
+||lgsmartad.com^
+||tvinteractive.tv^
+
+
+# ===== 区域广告技术 =====
+
+! --- Yandex ---
+||yandex.ru^
+||yandex.net^
+
+! --- Baidu ---
+||baidustatic.com^
+
+! --- Kakao / Naver ---
+||naver.net^
+||daum.net^
+
+! --- Vietnam ad networks ---
+||adtimaserver.vn^
+
+! --- VK / Mail.ru ---
+||mail.ru^
+
+
+# ===== 同意与隐私提示 =====
+
+! --- OneTrust ---
+||cookielaw.org^
+
+! --- Cookiebot ---
+||cookiebot.com^
+
+! --- Sourcepoint / Didomi ---
+||privacy-center.org^
