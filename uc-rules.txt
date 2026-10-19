@@ -6,6 +6,18 @@
 # zzd.sm.cn、umessage-online-zb.uc.cn、iflow.uczzd.cn、applogios.uc.cn、douyincdn.com
 # 禁止拉黑核心业务：napi.uc.cn、drama-api.uc.cn、story-api.uc.cn、coral-task.uc.cn
 
+||assets.adobedtm.com^
+||app.appsflyer.com^
+||i.logrocket.com^
+||awin1.com^
+||track.webgains.com^
+||impact.com^
+||vk-ads.com^
+||onetrust.com^
+||cookiepro.com^
+||privacy-mgmt.com^
+
+
 ||yes-file.quark.cn^$important
 ||szbalbg.uae2grp.uc.cn^$important
 ||acs.m.taobao.com^$important
