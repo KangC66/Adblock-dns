@@ -1,4 +1,6 @@
 
+amp-api.apps.apple.com
+api-access.pangolin-sdk-toutiao.com
 shuqireader.com
 stars.shuqireader.com
 drama-api.uc.cn
