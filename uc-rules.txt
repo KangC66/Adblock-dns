@@ -1,16 +1,15 @@
 # ============================================================
-# AdGuard Home 全量合并规则（UC书旗 + 通用广告拦截）
-# 合并时间：2026-10-20
+# AdGuard Home 全量合并规则（UC书旗 + 通用广告拦截）— 审查修正版
+# 修正时间：2026-10-21
+# 说明：已剔除误伤正常功能的宽规则、无效规则；待验证项在文件末尾"可选启用区"
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
-
 ||userlink.alicdn.com.danuoyi.tbcache.com^$important
 ||mssdk.volces.com.queniusz.com^$important
 ||events.telemetry.data.nvidia.cn^
 ||applog-lb-v3.hl.bytelb.net^
 ||applog-lb-v3.lf.bytelb.net^
-
-! ===== 通用追踪补漏（2026-10-20 测试新增）=====
+! ===== 通用追踪补漏 =====
 ||assets.adobedtm.com^
 ||app.appsflyer.com^
 ||i.logrocket.com^
@@ -21,19 +20,14 @@
 ||onetrust.com^
 ||cookiepro.com^
 ||privacy-mgmt.com^
-
 ! ===== 阿里妈妈/淘宝系广告 =====
-||yes-file.quark.cn^$important
-||szbalbg.uae2grp.uc.cn^$important
 ||mparticle.uc.cn^$important
-||ad.alibabacorp.com.gds.alibabadns.com^$important
-
+||shturl.cc/vY7GuOIaKLGWB1yzMw7YyuEZVyl^$important
 ! ===== 阿里妈妈广告联盟（UC小说最主要广告源）=====
 ||order.sm.cn^$important
 ||cm.sm.cn^$important
 ||api.xiaoshuo1-sm.com^$important
 ||corder.sm.cn^$important
-
 ! ===== UC书旗广告SDK、广告业务域名 =====
 ||sp-adx-config.uc.cn^$important
 ||ucweb-site.uc.cn^$important
@@ -49,13 +43,10 @@
 ||pages.uc.cn^$important
 ||ucad2-upas.uc.cn^$important
 ||uc2-service-square.iggrowth.cn^$important
-||stars.shuqireader.com^$important
-||u2-reader.uc.cn^$important
 ||ustory-uppas.uc.cn^$important
 ||upads.ucweb.com^$important
 ||im-apl.uc.cn^$important
 ||img.ucm.uc.cn^$important
-||coral-model.shuqireader.com^$important
 ||ssp-sdk-config.uc.cn^$important
 ||imvisgis.uc.cn^$important
 ||imnovel.uc.cn^$important
@@ -68,17 +59,14 @@
 ||lbhp-tsp.uc.cn^$important
 ||imp.uc.cn^$important
 ||ums.uc.cn^$important
-
-! ===== 字节穿山甲广告联盟（UC内嵌大量字节广告）=====
+! ===== 字节穿山甲广告联盟 =====
 ||bytegecko.com^$important
 ||mkt-report.zijieapi.com^$important
 ||mon.zijieapi.com^$important
-
 ! ===== 阿里Tanx广告联盟 =====
 ||a.opens.tanx.com^$important
 ||opebhs.tanx.com^$important
 ||ibagg.tanx.com^$important
-
 ! ===== igrowth广告聚合平台 =====
 ||cc-service-square.iggrowth.cn^$important
 ||ac-service-square.yunxish.com^$important
@@ -90,12 +78,10 @@
 ||partner.igrowth.cn^$important
 ||istar.shipuqiu-resource.11222.cn^$important
 ||ads.igrowth.cn^$important
-
 ! ===== 第三方广告追踪、RTB竞价平台 =====
 ||id.adbug.net^$important
 ||1rtb.net^$important
 ||ssp.igrowth.cn^$important
-
 ! ===== 各类广告素材CDN、广告落地页、统计打点 =====
 ||fs-fe-tos.pglistatp-toutiao.com^$important
 ||f-fe-tos.pglistatp-toutiao.com^$important
@@ -104,47 +90,35 @@
 ||zqtekun.uyunad.com^$important
 ||log.qq.com^$important
 ||ad.qq.com^$important
-||webcast-open.douyin.com^$important
-||vodcdn.volcdn.com^$important
 ||px.ucweb.com^$important
 ||lsp.janpdj.id^$important
 ||adv.jpg.jd.com^$important
 ||ixl0x.jd-gd.com^$important
-||sm.bdimg.com^$important
 ||ius-api.yunxish.com^$important
 ||sdk-adx-jd.com^$important
 ||lf-cdn-tos.bytedcm.com^$important
-||live-api.dyliveshow.cn^$important
-||live-api-gateway.dyliveshow.cn^$important
 ||livecast-g-source.bytedgecko.com^$important
 ||render-resource.11222.cn^$important
 ||cpc-service-square.58iclick.com^$important
 ||f2-fe-tos.pglistatp-toutiao.com^$important
-
 ! ===== JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）=====
 ||filters.actividy.com^$important
 ||jscdn.actividy.com^$important
 ||filters.actividy.org^$important
 ||zlink.ugdk.cn^$important
 ||profile.gc-gale.com^$important
-
-! ===== 截图新增广告域名（已校验，非阅读核心）=====
+! ===== 截图新增广告域名 =====
 ||zblb.uc123.com^$important
-
-! ===== dns_blocklist.txt 导入补充域名（已去重+剔除白名单域名）=====
-||ff.uc.cn^$important
+! ===== dns_blocklist.txt 导入补充域名 =====
 ||hzshudian.com^$important
-||auweb.cn^$important
 ||integralwall.baidu.com^$important
-||api.sm.cn^$important
-||iflow.uc.cn^$important
-||navigis.uc.cn^$important
-||vps.uc.cn^$important
 ||adjs-default-scd.e.kuaishou.com^$important
-||biz.quark.cn^$important
-||so.m.sm.cn^$important
-||website-sub.uc.cn^$important
-||dayu-img.uc.cn^$important
-||qiqu-img.uc.cn^$important
 ||bj2cu.u3.ucweb.com^$important
-
+! ============ 可选启用区（默认注释，按需开启）============
+! 用途不明，启用后观察书旗小说/UC功能是否正常：
+! ||szbalbg.uae2grp.uc.cn^$important
+! ||stars.shuqireader.com^$important
+! ||navigis.uc.cn^$important
+! ||vps.uc.cn^$important
+! ||website-sub.uc.cn^$important
+! ||ff.uc.cn^$important
