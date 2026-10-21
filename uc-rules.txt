@@ -6,9 +6,9 @@
 
 ||userlink.alicdn.com.danuoyi.tbcache.com^$important
 ||mssdk.volces.com.queniusz.com^$important
-||direct.ali-tj.applog-lb-v3.lf.bytelb.net^$important
-||h-adashx-internal-v6.ut.taobao.com.gds.alibabadns.com^$important
 ||events.telemetry.data.nvidia.cn^
+||applog-lb-v3.hl.bytelb.net^
+||applog-lb-v3.lf.bytelb.net^
 
 ! ===== 通用追踪补漏（2026-10-20 测试新增）=====
 ||assets.adobedtm.com^
