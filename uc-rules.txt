@@ -25,9 +25,7 @@
 ! ===== 阿里妈妈/淘宝系广告 =====
 ||yes-file.quark.cn^$important
 ||szbalbg.uae2grp.uc.cn^$important
-||acs.m.taobao.com^$important
 ||mparticle.uc.cn^$important
-||gw.alipayobjects.com^$important
 ||ad.alibabacorp.com.gds.alibabadns.com^$important
 
 ! ===== 阿里妈妈广告联盟（UC小说最主要广告源）=====
@@ -35,7 +33,6 @@
 ||cm.sm.cn^$important
 ||api.xiaoshuo1-sm.com^$important
 ||corder.sm.cn^$important
-||sm.cn^$important
 
 ! ===== UC书旗广告SDK、广告业务域名 =====
 ||sp-adx-config.uc.cn^$important
@@ -73,7 +70,6 @@
 ||ums.uc.cn^$important
 
 ! ===== 字节穿山甲广告联盟（UC内嵌大量字节广告）=====
-||snssdk.com^$important
 ||bytegecko.com^$important
 ||mkt-report.zijieapi.com^$important
 ||mon.zijieapi.com^$important
@@ -122,9 +118,6 @@
 ||live-api-gateway.dyliveshow.cn^$important
 ||livecast-g-source.bytedgecko.com^$important
 ||render-resource.11222.cn^$important
-||mmstat.com^$important
-||novel.xiaoshuo1-sm.com^$important
-||novel.shuqireader.com^$important
 ||cpc-service-square.58iclick.com^$important
 ||f2-fe-tos.pglistatp-toutiao.com^$important
 
@@ -132,34 +125,21 @@
 ||filters.actividy.com^$important
 ||jscdn.actividy.com^$important
 ||filters.actividy.org^$important
-||cncd.jsdeliver.net^$important
 ||zlink.ugdk.cn^$important
 ||profile.gc-gale.com^$important
 
 ! ===== 截图新增广告域名（已校验，非阅读核心）=====
-||11222.cn^$important
-||u3.ucweb.com^$important
 ||zblb.uc123.com^$important
-||sentry.io^$important
-||akamai.net^$important
-||yunxish.com^$important
 
 ! ===== dns_blocklist.txt 导入补充域名（已去重+剔除白名单域名）=====
 ||ff.uc.cn^$important
-||qtlcdn.com^$important
 ||hzshudian.com^$important
 ||auweb.cn^$important
-||ad.alibabacorp.com^$important
-||huodong.taobao.com^$important
-||cms.uc.cn^$important
-||bytedns1.com^$important
-||dyliveshow.cn^$important
 ||integralwall.baidu.com^$important
 ||api.sm.cn^$important
 ||iflow.uc.cn^$important
 ||navigis.uc.cn^$important
 ||vps.uc.cn^$important
-||yximgs.com^$important
 ||adjs-default-scd.e.kuaishou.com^$important
 ||biz.quark.cn^$important
 ||so.m.sm.cn^$important
@@ -167,5 +147,4 @@
 ||dayu-img.uc.cn^$important
 ||qiqu-img.uc.cn^$important
 ||bj2cu.u3.ucweb.com^$important
-||w.alikunlun.com^$important
 
