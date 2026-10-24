@@ -5,6 +5,10 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+||sentry.io^$important
+||o0.ingest.sentry.io^$important
+||browser.sentry-cdn.com^$important
+
 ||*.zijieapi.com^
 ||ads5-normal-lf.zijieapi.com^
 ||applog.zijieapi.com^
