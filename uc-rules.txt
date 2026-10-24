@@ -61,8 +61,6 @@
 ||ums.uc.cn^$important
 ! ===== 字节穿山甲广告联盟 =====
 ||bytegecko.com^$important
-||mkt-report.zijieapi.com^$important
-||mon.zijieapi.com^$important
 ! ===== 阿里Tanx广告联盟 =====
 ||a.opens.tanx.com^$important
 ||opebhs.tanx.com^$important
