@@ -4,6 +4,12 @@
 # 说明：已剔除误伤正常功能的宽规则、无效规则；待验证项在文件末尾"可选启用区"
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
+
+||*.zijieapi.com^
+||ads5-normal-lf.zijieapi.com^
+||applog.zijieapi.com^
+||pc-mon.zijieapi.com^
+
 ||userlink.alicdn.com.danuoyi.tbcache.com^$important
 ||mssdk.volces.com.queniusz.com^$important
 ||events.telemetry.data.nvidia.cn^
