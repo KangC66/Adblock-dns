@@ -5,11 +5,12 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+||shturl.cc/28oG2ZeKPQqTd3jNuZqXVjaOZ5n7^
 ||functional.events.data.microsoft.com^
 ||self.events.data.microsoft.com^
 ||adtrack.qianwen.com^
 ||ad.51wnl-cq.com^
-||shturl.cc/hsd5pkystuxJ3ACexM2RbskLSXzUH1obiZ6qmgw6LB7VQcwEEmJZu^
+||shturl.cc^
 
 ||log.mmstat.com^$important
 ||pixiu-sdk.uc.cn^$important
