@@ -5,6 +5,12 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+
+||settings-win.data.microsoft.com^
+||default.cn.zb.v4.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
+||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
+||tao.ad.cn.zb.ad.tengine.ingress.alibabacorp.com.gds.alibabadns.com^
+
 ||settings-win.data.microsoft.com^$important
 ||sentry.io^$important
 ||o0.ingest.sentry.io^$important
