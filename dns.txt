@@ -1,3 +1,14 @@
 u.ucfly.com
 u.uc123.com
 api-access.pangolin-sdk-toutiao-b.com
+g.live.com
+xp.apple.com
+dns.weixin.qq.com.cn
+audid-api.taobao.com
+
+
+
+
+
+
+
