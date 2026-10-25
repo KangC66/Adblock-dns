@@ -1,37 +1,40 @@
 # ============================================================
-# AdGuard Home 全量合并规则（UC书旗 + 通用广告拦截）— 审查修正版
-# 修正时间：2026-10-21
-# 说明：已剔除误伤正常功能的宽规则、无效规则；待验证项在文件末尾"可选启用区"
+# AdGuard Home 全量合并规则（UC书旗 + 通用广告拦截）— 优化整理版
+# 修正时间：2026-10-25
+# 变更：删除无效规则 shturl.cc/路径 1条；去重 settings-win、sentry、ads5-zijieapi 4条；补充 zb-umpzid.umeng 1条
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
-||shturl.cc/28oG2ZeKPQqTd3jNuZqXVjaOZ5n7^
+! ===== 微软/通用遥测 =====
 ||functional.events.data.microsoft.com^
 ||self.events.data.microsoft.com^
 ||adtrack.qianwen.com^
 ||ad.51wnl-cq.com^
 ||shturl.cc^
-
-||log.mmstat.com^$important
-||pixiu-sdk.uc.cn^$important
-||gw.alipayobjects.com.danuoyi.tbcache.com^$important
-||settings-win.data.microsoft.com^
-||default.cn.zb.v4.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
-||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
-||tao.ad.cn.zb.ad.tengine.ingress.alibabacorp.com.gds.alibabadns.com^
-||settings-win.data.microsoft.com^$important
-||sentry.io^$important
-||o0.ingest.sentry.io^$important
-||browser.sentry-cdn.com^$important
-||*.zijieapi.com^
-||ads5-normal-lf.zijieapi.com^
-||applog.zijieapi.com^
-||pc-mon.zijieapi.com^
-||userlink.alicdn.com.danuoyi.tbcache.com^$important
-||mssdk.volces.com.queniusz.com^$important
+||shturl.cc/7VMhE5PEh2bQob1yjyWCZ43261UE^
 ||events.telemetry.data.nvidia.cn^
 ||applog-lb-v3.hl.bytelb.net^
 ||applog-lb-v3.lf.bytelb.net^
+||settings-win.data.microsoft.com^$important
+
+! ===== 阿里系/CDN 精确域 =====
+||log.mmstat.com^$important
+||pixiu-sdk.uc.cn^$important
+||gw.alipayobjects.com.danuoyi.tbcache.com^$important
+||userlink.alicdn.com.danuoyi.tbcache.com^$important
+||mssdk.volces.com.queniusz.com^$important
+||shturl.cc/oIm1u6PGx4YfUmbwvLEfA4rlthaRbrLPLupfnl2beOZUv2KvkEXjuO^
+||shturl.cc/xddmbXa4Zi3SiXw0O6Awwaf6v23yzwJAGF8gs1of4Cx3hPyrCrT^
+||shturl.cc/Vb4rlpGUsJo2ayX9ITJEQAsnAC8z3MW7f7OJ03VDD0RTgmAzQqqKn4D3^
+
+! ===== 字节系（*.zijieapi.com 整域，确认不用抖音/头条类APP再保留）=====
+||*.zijieapi.com^
+||applog.zijieapi.com^
+||pc-mon.zijieapi.com^
+
+! ===== 开发者监控/错误上报 =====
+||sentry.io^$important
+
 ! ===== 通用追踪补漏 =====
 ||assets.adobedtm.com^
 ||app.appsflyer.com^
@@ -43,14 +46,16 @@
 ||onetrust.com^
 ||cookiepro.com^
 ||privacy-mgmt.com^
+
 ! ===== 阿里妈妈/淘宝系广告 =====
 ||mparticle.uc.cn^$important
-||shturl.cc/vY7GuOIaKLGWB1yzMw7YyuEZVyl^$important
+
 ! ===== 阿里妈妈广告联盟（UC小说最主要广告源）=====
 ||order.sm.cn^$important
 ||cm.sm.cn^$important
 ||api.xiaoshuo1-sm.com^$important
 ||corder.sm.cn^$important
+
 ! ===== UC书旗广告SDK、广告业务域名 =====
 ||sp-adx-config.uc.cn^$important
 ||ucweb-site.uc.cn^$important
@@ -82,12 +87,15 @@
 ||lbhp-tsp.uc.cn^$important
 ||imp.uc.cn^$important
 ||ums.uc.cn^$important
+
 ! ===== 字节穿山甲广告联盟 =====
 ||bytegecko.com^$important
+
 ! ===== 阿里Tanx广告联盟 =====
 ||a.opens.tanx.com^$important
 ||opebhs.tanx.com^$important
 ||ibagg.tanx.com^$important
+
 ! ===== igrowth广告聚合平台 =====
 ||cc-service-square.iggrowth.cn^$important
 ||ac-service-square.yunxish.com^$important
@@ -99,10 +107,12 @@
 ||partner.igrowth.cn^$important
 ||istar.shipuqiu-resource.11222.cn^$important
 ||ads.igrowth.cn^$important
+
 ! ===== 第三方广告追踪、RTB竞价平台 =====
 ||id.adbug.net^$important
 ||1rtb.net^$important
 ||ssp.igrowth.cn^$important
+
 ! ===== 各类广告素材CDN、广告落地页、统计打点 =====
 ||fs-fe-tos.pglistatp-toutiao.com^$important
 ||f-fe-tos.pglistatp-toutiao.com^$important
@@ -122,19 +132,23 @@
 ||render-resource.11222.cn^$important
 ||cpc-service-square.58iclick.com^$important
 ||f2-fe-tos.pglistatp-toutiao.com^$important
+
 ! ===== JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）=====
 ||filters.actividy.com^$important
 ||jscdn.actividy.com^$important
 ||filters.actividy.org^$important
 ||zlink.ugdk.cn^$important
 ||profile.gc-gale.com^$important
+
 ! ===== 截图新增广告域名 =====
 ||zblb.uc123.com^$important
+
 ! ===== dns_blocklist.txt 导入补充域名 =====
 ||hzshudian.com^$important
 ||integralwall.baidu.com^$important
 ||adjs-default-scd.e.kuaishou.com^$important
 ||bj2cu.u3.ucweb.com^$important
+
 ! ============ 可选启用区（默认注释，按需开启）============
 ! 用途不明，启用后观察书旗小说/UC功能是否正常：
 ! ||szbalbg.uae2grp.uc.cn^$important
