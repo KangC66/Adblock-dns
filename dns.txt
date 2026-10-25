@@ -5,6 +5,10 @@ g.live.com
 xp.apple.com
 dns.weixin.qq.com.cn
 audid-api.taobao.com
+applogios.uc.cn
+
+
+
 
 
 
