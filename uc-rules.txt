@@ -5,11 +5,15 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+||functional.events.data.microsoft.com^
+||self.events.data.microsoft.com^
+||adtrack.qianwen.com^
+||ad.51wnl-cq.com^
+||shturl.cc/hsd5pkystuxJ3ACexM2RbskLSXzUH1obiZ6qmgw6LB7VQcwEEmJZu^
 
 ||log.mmstat.com^$important
 ||pixiu-sdk.uc.cn^$important
 ||gw.alipayobjects.com.danuoyi.tbcache.com^$important
-
 ||settings-win.data.microsoft.com^
 ||default.cn.zb.v4.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
 ||default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com^
