@@ -6,7 +6,6 @@ xp.apple.com
 dns.weixin.qq.com.cn
 audid-api.taobao.com
 applogios.uc.cn
-gw.alipayobjects.com
 atoken.m.taobao.com
 
 
