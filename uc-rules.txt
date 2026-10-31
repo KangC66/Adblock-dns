@@ -9,7 +9,8 @@
 ||snssdk.com^
 ||e.qq.com^
 ||adnet.qq.com^
-
+||tao.ad.cn.zb.ad.tengine.ingress.alibabacorp.com.gds.alibabadns.com^$important
+||wvcfg.alicdn.com.danuoyi.tbcache.com^$important
 
 ! ===== 微软/通用遥测 =====
 ||functional.events.data.microsoft.com^
