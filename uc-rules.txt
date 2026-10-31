@@ -159,6 +159,7 @@
 @@||coral-task.uc.cn^$important
 @@||*.qznovelvod.com^$important
 @@||*.douyinvod.com^$important
+@@||*.danuoyi.alicdn.com^$important
 
 ! ============ 可选启用区（默认注释，按需开启）============
 ! 用途不明，启用后观察书旗小说/UC功能是否正常：
