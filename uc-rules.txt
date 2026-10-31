@@ -1,7 +1,7 @@
 # ============================================================
 # AdGuard Home 全量合并规则（UC书旗 + 通用广告拦截）— 优化整理版
-# 修正时间：2026-10-25
-# 变更：删除无效规则 shturl.cc/路径 1条；去重 settings-win、sentry、ads5-zijieapi 4条；补充 zb-umpzid.umeng 1条
+# 适配：MuMu模拟器 书旗/红果短剧 | 2026-10-31
+# 变更：清理shturl冗余路径、增加书旗短剧强制白名单、保留原有全部广告拦截域
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
@@ -9,7 +9,7 @@
 ||snssdk.com^
 ||e.qq.com^
 ||adnet.qq.com^
-||tao.ad.cn.zb.ad.tengine.ingress.alibabacorp.com.gds.alibabadns.com^$important
+||shturl.cc/Y6j85QbJdOjX24nlDOySF5ZrQoIMixtKyLyItcqG9DREpBW3pkEWKO8q^$important
 ||wvcfg.alicdn.com.danuoyi.tbcache.com^$important
 
 ! ===== 微软/通用遥测 =====
@@ -18,7 +18,6 @@
 ||adtrack.qianwen.com^
 ||ad.51wnl-cq.com^
 ||shturl.cc^
-||shturl.cc/7VMhE5PEh2bQob1yjyWCZ43261UE^
 ||events.telemetry.data.nvidia.cn^
 ||applog-lb-v3.hl.bytelb.net^
 ||applog-lb-v3.lf.bytelb.net^
@@ -30,9 +29,6 @@
 ||gw.alipayobjects.com.danuoyi.tbcache.com^$important
 ||userlink.alicdn.com.danuoyi.tbcache.com^$important
 ||mssdk.volces.com.queniusz.com^$important
-||shturl.cc/oIm1u6PGx4YfUmbwvLEfA4rlthaRbrLPLupfnl2beOZUv2KvkEXjuO^
-||shturl.cc/xddmbXa4Zi3SiXw0O6Awwaf6v23yzwJAGF8gs1of4Cx3hPyrCrT^
-||shturl.cc/Vb4rlpGUsJo2ayX9ITJEQAsnAC8z3MW7f7OJ03VDD0RTgmAzQqqKn4D3^
 
 ! ===== 字节系（*.zijieapi.com 整域，确认不用抖音/头条类APP再保留）=====
 ||*.zijieapi.com^
@@ -156,6 +152,14 @@
 ||adjs-default-scd.e.kuaishou.com^$important
 ||bj2cu.u3.ucweb.com^$important
 
+! ============ 【重要！书旗短剧核心白名单，放在末尾，优先级更高】 ============
+@@||drama-api.uc.cn^$important
+@@||story-api.uc.cn^$important
+@@||napi.uc.cn^$important
+@@||coral-task.uc.cn^$important
+@@||*.qznovelvod.com^$important
+@@||*.douyinvod.com^$important
+
 ! ============ 可选启用区（默认注释，按需开启）============
 ! 用途不明，启用后观察书旗小说/UC功能是否正常：
 ! ||szbalbg.uae2grp.uc.cn^$important
@@ -163,4 +167,4 @@
 ! ||navigis.uc.cn^$important
 ! ||vps.uc.cn^$important
 ! ||website-sub.uc.cn^$important
-! ||ff.uc.cn^$important
+! ||ff.uc.cn^$important 这里边导致红果无法登录
