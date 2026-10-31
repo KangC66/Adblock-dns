@@ -5,6 +5,12 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+||pangolin-sdk-toutiao.com^
+||snssdk.com^
+||e.qq.com^
+||adnet.qq.com^
+
+
 ! ===== 微软/通用遥测 =====
 ||functional.events.data.microsoft.com^
 ||self.events.data.microsoft.com^
