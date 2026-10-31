@@ -160,6 +160,7 @@
 @@||*.qznovelvod.com^$important
 @@||*.douyinvod.com^$important
 @@||*.danuoyi.alicdn.com^$important
+@@||umc.danuoyi.alicdn.com/multi_dns_resolve^
 
 ! ============ 可选启用区（默认注释，按需开启）============
 ! 用途不明，启用后观察书旗小说/UC功能是否正常：
