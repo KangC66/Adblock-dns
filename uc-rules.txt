@@ -5,6 +5,7 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+||ad-r.soulapp.cn^$important
 ||pangolin-sdk-toutiao.com^
 ||snssdk.com^
 ||e.qq.com^
@@ -31,7 +32,6 @@
 ||mssdk.volces.com.queniusz.com^$important
 
 ! ===== 字节系（*.zijieapi.com 整域，确认不用抖音/头条类APP再保留）=====
-||*.zijieapi.com^
 ||applog.zijieapi.com^
 ||pc-mon.zijieapi.com^
 
