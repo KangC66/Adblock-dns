@@ -9,6 +9,21 @@ applogios.uc.cn
 atoken.m.taobao.com
 
 
+# 微信/小程序
+weixin.qq.com
+wx.qq.com
+api.weixin.qq.com
+mp.weixin.qq.com
+# 支付宝
+alipay.com
+api.alipay.com
+# iCloud相关（Apple Tracker拦崩时用）
+icloud.com
+p51-keyapi.icloud.com
+# 抖音基础业务（容易被anti-AD误杀）
+douyin.com
+bytedance.com
+
 
 
 
