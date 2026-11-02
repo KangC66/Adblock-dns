@@ -14,6 +14,12 @@ weixin.qq.com
 wx.qq.com
 api.weixin.qq.com
 mp.weixin.qq.com
+wx.qpic.cn
+wx.qlogo.cn
+qpic.cn
+res.wx.qq.com
+servicewechat.com
+
 # 支付宝
 alipay.com
 api.alipay.com
