@@ -1,38 +1,33 @@
-u.ucfly.com
-u.uc123.com
-api-access.pangolin-sdk-toutiao-b.com
-g.live.com
-xp.apple.com
-dns.weixin.qq.com.cn
-audid-api.taobao.com
-applogios.uc.cn
-atoken.m.taobao.com
+! 杂项
+@@||u.ucfly.com^$important
+@@||u.uc123.com^$important
+@@||api-access.pangolin-sdk-toutiao-b.com^$important
+@@||g.live.com^$important
+@@||xp.apple.com^$important
+@@||dns.weixin.qq.com.cn^$important
+@@||audid-api.taobao.com^$important
+@@||applogios.uc.cn^$important
+@@||atoken.m.taobao.com^$important
 
+! 微信/小程序
+@@||weixin.qq.com^$important
+@@||wx.qq.com^$important
+@@||api.weixin.qq.com^$important
+@@||mp.weixin.qq.com^$important
+@@||wx.qpic.cn^$important
+@@||wx.qlogo.cn^$important
+@@||qpic.cn^$important
+@@||res.wx.qq.com^$important
+@@||servicewechat.com^$important
 
-# 微信/小程序
-weixin.qq.com
-wx.qq.com
-api.weixin.qq.com
-mp.weixin.qq.com
-wx.qpic.cn
-wx.qlogo.cn
-qpic.cn
-res.wx.qq.com
-servicewechat.com
+! 支付宝
+@@||alipay.com^$important
+@@||api.alipay.com^$important
 
-# 支付宝
-alipay.com
-api.alipay.com
-# iCloud相关（Apple Tracker拦崩时用）
-icloud.com
-p51-keyapi.icloud.com
-# 抖音基础业务（容易被anti-AD误杀）
-douyin.com
-bytedance.com
+! iCloud（Apple跟踪拦截误杀时放行）
+@@||icloud.com^$important
+@@||p51-keyapi.icloud.com^$important
 
-
-
-
-
-
-
+! 抖音基础业务（anti-AD极易误杀）
+@@||douyin.com^$important
+@@||bytedance.com^$important
