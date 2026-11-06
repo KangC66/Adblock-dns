@@ -10,6 +10,7 @@
 ||ucc.umeng.com^
 ||*.voiceads.cn^
 ||ad-r.soulapp.cn^$important
+||ad-audit-provider.soulapp.cn^$important
 ||pangolin-sdk-toutiao.com^
 ||snssdk.com^
 ||e.qq.com^
