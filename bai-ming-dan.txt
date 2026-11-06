@@ -9,8 +9,8 @@
 @@||*.snssdk.com^$important
 @@||*.zijieapi.com^$important
 @@||lf-flow-web-cdn.doubao.com^$important
-@@||imagex.bytedanceapi.com^
-@@||*-flow-imagex-sign.byteimg.com^
+@@||imagex.bytedanceapi.com^$important
+@@||*-flow-imagex-sign.byteimg.com^$important
 
 ! ==============================================
 ! 杂项
