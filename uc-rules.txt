@@ -11,6 +11,7 @@
 ||*.voiceads.cn^
 ||ad-r.soulapp.cn^$important
 ||ad-audit-provider.soulapp.cn^$important
+||ad-r.soulapp.cn.a.lahuashanbx.com^$important
 ||pangolin-sdk-toutiao.com^
 ||snssdk.com^
 ||e.qq.com^
