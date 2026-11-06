@@ -1,4 +1,20 @@
+! ==============================================
+! 豆包 & 字节系放行（图片上传修复）
+! ==============================================
+||direct.toutiao-other-v3.lq.bytelb.net^
+@@||*.doubao.com^$important
+@@||*.doubaocdn.com^$important
+@@||*.byteimg.com^$important
+@@||*.byteacctimg.com^$important
+@@||*.snssdk.com^$important
+@@||*.zijieapi.com^$important
+@@||lf-flow-web-cdn.doubao.com^$important
+@@||imagex.bytedanceapi.com^
+@@||*-flow-imagex-sign.byteimg.com^
+
+! ==============================================
 ! 杂项
+! ==============================================
 @@||u.ucfly.com^$important
 @@||u.uc123.com^$important
 @@||api-access.pangolin-sdk-toutiao-b.com^$important
@@ -9,25 +25,27 @@
 @@||applogios.uc.cn^$important
 @@||atoken.m.taobao.com^$important
 
+! ==============================================
 ! 微信/小程序
-@@||weixin.qq.com^$important
-@@||wx.qq.com^$important
-@@||api.weixin.qq.com^$important
-@@||mp.weixin.qq.com^$important
-@@||wx.qpic.cn^$important
+! ==============================================
+@@||*.weixin.qq.com^$important
+@@||*.wx.qq.com^$important
+@@||*.qpic.cn^$important
 @@||wx.qlogo.cn^$important
-@@||qpic.cn^$important
-@@||res.wx.qq.com^$important
 @@||servicewechat.com^$important
 
+! ==============================================
 ! 支付宝
-@@||alipay.com^$important
-@@||api.alipay.com^$important
+! ==============================================
+@@||*.alipay.com^$important
 
+! ==============================================
 ! iCloud（Apple跟踪拦截误杀时放行）
-@@||icloud.com^$important
-@@||p51-keyapi.icloud.com^$important
+! ==============================================
+@@||*.icloud.com^$important
 
+! ==============================================
 ! 抖音基础业务（anti-AD极易误杀）
-@@||douyin.com^$important
-@@||bytedance.com^$important
+! ==============================================
+@@||*.douyin.com^$important
+@@||*.bytedance.com^$important
