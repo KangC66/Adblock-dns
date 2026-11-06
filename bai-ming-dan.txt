@@ -1,7 +1,7 @@
 ! ==============================================
 ! 豆包 & 字节系放行（图片上传修复）
 ! ==============================================
-||direct.toutiao-other-v3.lq.bytelb.net^
+
 @@||*.doubao.com^$important
 @@||*.doubaocdn.com^$important
 @@||*.byteimg.com^$important
