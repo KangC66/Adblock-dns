@@ -2,6 +2,8 @@
 ! 豆包 & 字节系放行（图片上传修复）
 ! ==============================================
 
+@@||bytegecko.com^$important
+@@||vegslb.com^$important
 @@||*.doubao.com^$important
 @@||*.doubaocdn.com^$important
 @@||*.byteimg.com^$important
