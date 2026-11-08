@@ -16,15 +16,12 @@
 ||wvcfg.alicdn.com.danuoyi.tbcache.com^$important
 
 ! ===== 微软/通用遥测 =====
-||functional.events.data.microsoft.com^
-||self.events.data.microsoft.com^
 ||adtrack.qianwen.com^
 ||ad.51wnl-cq.com^
 ||shturl.cc^
 ||events.telemetry.data.nvidia.cn^
 ||applog-lb-v3.hl.bytelb.net^
 ||applog-lb-v3.lf.bytelb.net^
-||settings-win.data.microsoft.com^$important
 
 ! ===== 阿里系/CDN 精确域 =====
 ||log.mmstat.com^$important
