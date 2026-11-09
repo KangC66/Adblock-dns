@@ -50,4 +50,4 @@
 ! 抖音基础业务（anti-AD极易误杀）
 ! ==============================================
 @@||*.douyin.com^$important
-@@||*.bytedance.com^$important
+
