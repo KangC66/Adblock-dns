@@ -190,14 +190,4 @@
 @@||coral-task.uc.cn^$important
 @@||*.qznovelvod.com^$important
 @@||*.douyinvod.com^$important
-@@||*.danuoyi.alicdn.com^$important
-@@||umc.danuoyi.alicdn.com/multi_dns_resolve^
-
-! ============ 可选启用区（默认注释，按需开启）============
-! 用途不明，启用后观察书旗小说/UC功能是否正常：
-! ||szbalbg.uae2grp.uc.cn^$important
-! ||stars.shuqireader.com^$important
-! ||navigis.uc.cn^$important
-! ||vps.uc.cn^$important
-! ||website-sub.uc.cn^$important
-! ||ff.uc.cn^$important 这里边导致红果无法登录
+@@||imagex.bytedanceapi.com^$important
