@@ -8,6 +8,7 @@
 ||app.adjust.com^
 ||ngfts.lge.com^
 ||redditstatic.com/ads/pixel.js$script
+||logifier.doubao.com^
 ||ylh.qq.com^
 ||tanx.com^
 ||etao.com^
