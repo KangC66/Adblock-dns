@@ -13,9 +13,6 @@
 @@||imagex.bytedanceapi.com^$important
 @@||*-flow-imagex-sign.byteimg.com^$important
 
-! ==============================================
-! 杂项
-! ==============================================
 @@||u.ucfly.com^$important
 @@||u.uc123.com^$important
 @@||g.live.com^$important
