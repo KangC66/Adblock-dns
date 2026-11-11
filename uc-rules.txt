@@ -5,9 +5,26 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
-||wagbridge.ad.alibabacorp.com^$important
+# Soul
 ||soul-ad.soulapp.cn^$important
+||ad-r.soulapp.cn^$important
+||ad-effect-phone.soulapp.cn^$important
+||ad-advertiser.soulapp.cn^$important
+||data-collector.soulapp.cn^$important
+||insight.soulapp.cn^$important
+
+# 咪咕 mojichina
 ||adx.v3w.mojichina.com^$important
+||ad.api.moji.com^$important
+||adlaunch.moji.com^$important
+||ads.mojicdn.com^$important
+||adxserver.ad.cmvideo.cn^$important
+||ad.cmvideo.cn^$important
+||v1.log.moji.com^$important
+
+# 阿里广告SDK（你之前那条）
+||wagbridge.ad.alibabacorp.com^$important
+
 
 ||direct.toutiao-other-v3.lq.bytelb.net^
 ||ucc.umeng.com^
