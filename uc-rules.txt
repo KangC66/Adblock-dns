@@ -5,6 +5,10 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+||wagbridge.ad.alibabacorp.com^$important
+||soul-ad.soulapp.cn^$important
+||adx.v3w.mojichina.com^$important
+
 ||direct.toutiao-other-v3.lq.bytelb.net^
 ||ucc.umeng.com^
 ||*.voiceads.cn^
