@@ -8,7 +8,6 @@
 @@||*.doubaocdn.com^$important
 @@||*.byteimg.com^$important
 @@||*.byteacctimg.com^$important
-@@||*.snssdk.com^$important
 @@||*.zijieapi.com^$important
 @@||lf-flow-web-cdn.doubao.com^$important
 @@||imagex.bytedanceapi.com^$important
@@ -19,13 +18,10 @@
 ! ==============================================
 @@||u.ucfly.com^$important
 @@||u.uc123.com^$important
-@@||api-access.pangolin-sdk-toutiao-b.com^$important
 @@||g.live.com^$important
 @@||xp.apple.com^$important
 @@||dns.weixin.qq.com.cn^$important
 @@||audid-api.taobao.com^$important
-@@||applogios.uc.cn^$important
-@@||atoken.m.taobao.com^$important
 
 ! ==============================================
 ! 微信/小程序
