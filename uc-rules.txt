@@ -8,6 +8,12 @@
 ||app.adjust.com^
 ||ngfts.lge.com^
 ||redditstatic.com/ads/pixel.js$script
+||ylh.qq.com^
+||tanx.com^
+||etao.com^
+||ad.oceanengine.com^
+||baidu-ad.com^
+||app.adjust.com^
 
 # Soul
 ||soul-ad.soulapp.cn^$important
