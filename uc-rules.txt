@@ -193,3 +193,4 @@
 @@||imagex.bytedanceapi.com^$important
 @@||pan.quark.cn^$important
 @@||byteimg.com^$important
+@@||mclick.simba.taobao.com^$important
