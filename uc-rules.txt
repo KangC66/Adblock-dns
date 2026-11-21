@@ -194,3 +194,4 @@
 @@||pan.quark.cn^$important
 @@||byteimg.com^$important
 @@||mclick.simba.taobao.com^$important
+@@||weather.api.moji.com^$important
