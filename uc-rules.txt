@@ -195,3 +195,5 @@
 @@||byteimg.com^$important
 @@||mclick.simba.taobao.com^$important
 @@||weather.api.moji.com^$important
+@@||yasuo.360.cn^$important
+@@||geo.asus.com^$important
