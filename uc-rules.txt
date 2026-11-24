@@ -197,3 +197,6 @@
 @@||weather.api.moji.com^$important
 @@||yasuo.360.cn^$important
 @@||geo.asus.com^$important
+@@||wxa.wxs.qq.com^$important
+@@||wximg.wxs.qq.com^$important
+@@||apd-pcdnwxstat.teg.tencent-cloud.net^$important
