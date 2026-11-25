@@ -8,7 +8,6 @@
 ||fqnovel.com^
 ||qznovelvod.com^
 ||zijieapi.com^
-||snssdk.com^
 ||byteorge.com^
 ||bytegoofy.com^
 ||pglstatp-toutiao.com^
