@@ -5,6 +5,17 @@
 # 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
 # ============================================================
 
+||fqnovel.com^
+||qznovelvod.com^
+||zijieapi.com^
+||snssdk.com^
+||byteorge.com^
+||bytegoofy.com^
+||pglstatp-toutiao.com^
+||oceanengine.com^
+||mon.toutiaocloud.net^
+||mon.toutiaocloud.com^
+
 ||app.adjust.com^
 ||ngfts.lge.com^
 ||redditstatic.com/ads/pixel.js$script
