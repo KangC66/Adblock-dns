@@ -50,7 +50,6 @@
 ||ucc.umeng.com^
 ||*.voiceads.cn^
 ||pangolin-sdk-toutiao.com^
-||snssdk.com^
 ||e.qq.com^
 ||adnet.qq.com^
 ||shturl.cc/Y6j85QbJdOjX24nlDOySF5ZrQoIMixtKyLyItcqG9DREpBW3pkEWKO8q^$important
