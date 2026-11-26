@@ -39,6 +39,9 @@
 ||f2-fe-tos.pglistatp-toutiao.com^
 ||ifal-tos-bytescm.com^
 
+||douyincdn.com^
+||douyinliving.com^
+
 ! ===== 二、广告素材视频拉流 CDN（特征前缀，AdGuard Home 用通配符匹配） =====
 ||pull-flv-spe-*.douyincdn.com^
 ||pull-tsl-spe-*.douyincdn.com^
