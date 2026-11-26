@@ -7,7 +7,7 @@
 
 ! ===== 一、字节系 / 穿山甲广告 SDK 打点、归因、监测 =====
 ||whoami.akamai.net^$important
-||snssdk.com^
+||is.snssdk.com^
 ||pangolin-sdk-toutiao.com^
 ||pangolin-sdk-toutiao-b.com^
 ||pangolin-sdk-toutiao1.com^
