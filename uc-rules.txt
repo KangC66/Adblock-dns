@@ -207,4 +207,3 @@
 @@||geo.asus.com^$important
 @@||wxa.wxs.qq.com^$important
 @@||wximg.wxs.qq.com^$important
-@@||apd-pcdnwxstat.teg.tencent-cloud.net^$important
