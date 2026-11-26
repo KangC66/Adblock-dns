@@ -13,6 +13,9 @@
 ||oceanengine.com^
 ||mon.toutiaocloud.net^
 ||mon.toutiaocloud.com^
+||apd-pcdnwxlogin.teg.tencent-cloud.net^
+||apd-pcdnwxnat.teg.tencent-cloud.net^
+
 
 ||app.adjust.com^
 ||ngfts.lge.com^
