@@ -1,9 +1,3 @@
-# ============================================================
-# AdGuard Home 全量合并规则（UC书旗 + 通用广告拦截）— 优化整理版
-# 适配：MuMu模拟器 书旗/红果短剧 | 2026-10-31
-# 变更：清理shturl冗余路径、增加书旗短剧强制白名单、保留原有全部广告拦截域
-# 用法：AdGuard Home → 过滤器 → 自定义过滤规则 → 全部粘贴
-# ============================================================
 
 ||fqnovel.com^
 ||qznovelvod.com^
@@ -15,8 +9,6 @@
 ||mon.toutiaocloud.com^
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
-
-
 ||app.adjust.com^
 ||ngfts.lge.com^
 ||redditstatic.com/ads/pixel.js$script
