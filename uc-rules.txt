@@ -1,3 +1,28 @@
+! ===== 红果短剧 · 字节系广告 SDK 打点/归因 =====
+||snssdk.com^
+||pangolin-sdk-toutiao.com^
+||pangolin-sdk-toutiao-b.com^
+||pangolin-sdk-toutiao1.com^
+||api-access.pangolin-sdk-toutiao.com^
+||api-access.pangolin-sdk-toutiao-b.com^
+||api-access.pangolin-sdk-toutiao1.com^
+||log-api.pangolin-sdk-toutiao.com^
+||log-api.pangolin-sdk-toutiao-b.com^
+||queniurc.com^
+||xapple.com^
+||xapp.com^
+
+! ===== 广告素材流（特征前缀，风险较低） =====
+||pull-flv-spe-*.douyincdn.com^
+||pull-tsl-spe-*.douyincdn.com^
+||pull-flv-spe-*.douyinliving.com^
+||pull-tsl-spe-*.douyinliving.com^
+||pull-flv-enc.douyincdn.com^
+||pull-flv-f11-caster.douyincdn.com^
+||pull-rtmp-*.douyinliving.com^
+||pull-flv-c26.douyincdn.com^
+||pull-tsl-126.douyincdn.com^
+||pull-tsl-c26.douyincdn.com^
 
 ||fqnovel.com^
 ||qznovelvod.com^
