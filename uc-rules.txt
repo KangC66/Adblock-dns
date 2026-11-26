@@ -1,4 +1,11 @@
-! ===== 红果短剧 · 字节系广告 SDK 打点/归因 =====
+! =====================================================================
+!  红果短剧 / 字节系广告拦截规则  ·  AdGuard Home  DNS 过滤版
+!  说明：DNS 层只匹配主机名，路径/脚本类型修饰符（/$script、/路径）
+!        在 AdGuard Home 中不生效，已移除或改为域名级规则。
+!  白名单（@@）统一放在文件末尾，优先级最高。
+! =====================================================================
+
+! ===== 一、字节系 / 穿山甲广告 SDK 打点、归因、监测 =====
 ||snssdk.com^
 ||pangolin-sdk-toutiao.com^
 ||pangolin-sdk-toutiao-b.com^
@@ -11,8 +18,28 @@
 ||queniurc.com^
 ||xapple.com^
 ||xapp.com^
+||byteorge.com^
+||bytegoofy.com^
+||pglstatp-toutiao.com^
+||oceanengine.com^
+||ad.oceanengine.com^
+||mon.toutiaocloud.net^
+||mon.toutiaocloud.com^
+||applog-lb-v3.hl.bytelb.net^
+||applog-lb-v3.lf.bytelb.net^
+||direct.toutiao-other-v3.lq.bytelb.net^
+||applog.zijieapi.com^
+||pc-mon.zijieapi.com^
+||bytegecko.com^
+||livecast-g-source.bytedgecko.com^
+||lf-cdn-tos.bytedcm.com^
+||fs-fe-tos.pglistatp-toutiao.com^
+||f-fe-tos.pglistatp-toutiao.com^
+||sf3-fe-tos.pglistatp-toutiao.com^
+||f2-fe-tos.pglistatp-toutiao.com^
+||ifal-tos-bytescm.com^
 
-! ===== 广告素材流（特征前缀，风险较低） =====
+! ===== 二、广告素材视频拉流 CDN（特征前缀，AdGuard Home 用通配符匹配） =====
 ||pull-flv-spe-*.douyincdn.com^
 ||pull-tsl-spe-*.douyincdn.com^
 ||pull-flv-spe-*.douyinliving.com^
@@ -24,206 +51,159 @@
 ||pull-tsl-126.douyincdn.com^
 ||pull-tsl-c26.douyincdn.com^
 
-||fqnovel.com^
-||qznovelvod.com^
-||byteorge.com^
-||bytegoofy.com^
-||pglstatp-toutiao.com^
-||oceanengine.com^
-||mon.toutiaocloud.net^
-||mon.toutiaocloud.com^
+! ===== 三、腾讯 / 优量汇广告与 SDK =====
 ||apd-pcdnwxlogin.teg.tencent-cloud.net^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
-||app.adjust.com^
-||ngfts.lge.com^
-||redditstatic.com/ads/pixel.js$script
-||logifier.doubao.com^
-||ylh.qq.com^
-||tanx.com^
-||etao.com^
-||ad.oceanengine.com^
-||baidu-ad.com^
-||app.adjust.com^
-
-# Soul
-||soul-ad.soulapp.cn^$important
-||ad-r.soulapp.cn^$important
-||ad-effect-phone.soulapp.cn^$important
-||ad-advertiser.soulapp.cn^$important
-||data-collector.soulapp.cn^$important
-||insight.soulapp.cn^$important
-
-# 咪咕 mojichina
-||adx.v3w.mojichina.com^$important
-||ad.api.moji.com^$important
-||adlaunch.moji.com^$important
-||ads.mojicdn.com^$important
-||adxserver.ad.cmvideo.cn^$important
-||ad.cmvideo.cn^$important
-||v1.log.moji.com^$important
-
-# 阿里广告SDK（你之前那条）
-||wagbridge.ad.alibabacorp.com^$important
-
-
-||direct.toutiao-other-v3.lq.bytelb.net^
-||ucc.umeng.com^
-||*.voiceads.cn^
-||pangolin-sdk-toutiao.com^
 ||e.qq.com^
 ||adnet.qq.com^
-||shturl.cc/Y6j85QbJdOjX24nlDOySF5ZrQoIMixtKyLyItcqG9DREpBW3pkEWKO8q^$important
-||wvcfg.alicdn.com.danuoyi.tbcache.com^$important
+||ad.qq.com^
+||log.qq.com^
+||ylh.qq.com^
 
-! ===== 微软/通用遥测 =====
-||adtrack.qianwen.com^
-||ad.51wnl-cq.com^
-||shturl.cc^
-||events.telemetry.data.nvidia.cn^
-||applog-lb-v3.hl.bytelb.net^
-||applog-lb-v3.lf.bytelb.net^
-
-! ===== 阿里系/CDN 精确域 =====
-||log.mmstat.com^$important
-||pixiu-sdk.uc.cn^$important
-||gw.alipayobjects.com.danuoyi.tbcache.com^$important
-||userlink.alicdn.com.danuoyi.tbcache.com^$important
-||mssdk.volces.com.queniusz.com^$important
-
-! ===== 字节系（*.zijieapi.com 整域，确认不用抖音/头条类APP再保留）=====
-||applog.zijieapi.com^
-||pc-mon.zijieapi.com^
-
-! ===== 开发者监控/错误上报 =====
-||sentry.io^$important
-
-! ===== 通用追踪补漏 =====
-||assets.adobedtm.com^
+! ===== 四、第三方广告追踪、归因、RTB 竞价平台 =====
+||app.adjust.com^
 ||app.appsflyer.com^
-||i.logrocket.com^
+||id.adbug.net^
+||1rtb.net^
+||id.adbug.net^
 ||awin1.com^
 ||track.webgains.com^
 ||impact.com^
 ||vk-ads.com^
+||i.logrocket.com^
+||assets.adobedtm.com^
+||filters.actividy.com^
+||jscdn.actividy.com^
+||filters.actividy.org^
+||zlink.ugdk.cn^
+||profile.gc-gale.com^
+||zqtekun.uyunad.com^
+||sentry.io^
 ||onetrust.com^
 ||cookiepro.com^
 ||privacy-mgmt.com^
 
-! ===== 阿里妈妈/淘宝系广告 =====
-||mparticle.uc.cn^$important
+! ===== 五、阿里 / 淘宝 / Tanx 广告联盟 =====
+||tanx.com^
+||a.opens.tanx.com^
+||opebhs.tanx.com^
+||ibagg.tanx.com^
+||wagbridge.ad.alibabacorp.com^
+||log.mmstat.com^
+||wximg.wxs.qq.com^
+||wxa.wxs.qq.com^
+||mparticle.uc.cn^
+||px.ucweb.com^
+||bh.uc.cn^
+||bh.uc.cn^
 
-! ===== 阿里妈妈广告联盟（UC小说最主要广告源）=====
-||order.sm.cn^$important
-||cm.sm.cn^$important
-||api.xiaoshuo1-sm.com^$important
-||corder.sm.cn^$important
+! ===== 六、Soul 广告 / 归因 =====
+||soul-ad.soulapp.cn^
+||ad-r.soulapp.cn^
+||ad-effect-phone.soulapp.cn^
+||ad-advertiser.soulapp.cn^
+||data-collector.soulapp.cn^
+||insight.soulapp.cn^
 
-! ===== UC书旗广告SDK、广告业务域名 =====
-||sp-adx-config.uc.cn^$important
-||ucweb-site.uc.cn^$important
-||imhp-sub.uc.cn^$important
-||imuserver-upaas.uc.cn^$important
-||mavi-user.uc.cn^$important
-||isimage.uczzd.cn^$important
-||unpm-upaas.uc.cn^$important
-||hp-cms-uc.uc.cn^$important
-||mi-ad.uc.cn^$important
-||bh.uc.cn^$important
-||puds.ucweb.com^$important
-||pages.uc.cn^$important
-||ucad2-upas.uc.cn^$important
-||uc2-service-square.iggrowth.cn^$important
-||ustory-uppas.uc.cn^$important
-||upads.ucweb.com^$important
-||im-apl.uc.cn^$important
-||img.ucm.uc.cn^$important
-||ssp-sdk-config.uc.cn^$important
-||imvisgis.uc.cn^$important
-||imnovel.uc.cn^$important
-||imvisgis-uc.uc.cn^$important
-||imlaunchwx.uc.cn^$important
-||ads.ucfly.com^$important
-||sdk-config.uc.cn^$important
-||image.ucjr.com^$important
-||fanmoysp.uc.cn^$important
-||lbhp-tsp.uc.cn^$important
-||imp.uc.cn^$important
-||ums.uc.cn^$important
+! ===== 七、咪咕 / 墨迹广告 =====
+||adx.v3w.mojichina.com^
+||ad.api.moji.com^
+||adlaunch.moji.com^
+||ads.mojicdn.com^
+||adxserver.ad.cmvideo.cn^
+||ad.cmvideo.cn^
+||v1.log.moji.com^
 
-! ===== 字节穿山甲广告联盟 =====
-||bytegecko.com^$important
+! ===== 八、UC / 书旗广告 SDK 与业务域名 =====
+||order.sm.cn^
+||cm.sm.cn^
+||api.xiaoshuo1-sm.com^
+||corder.sm.cn^
+||sp-adx-config.uc.cn^
+||ucweb-site.uc.cn^
+||imhp-sub.uc.cn^
+||imuserver-upaas.uc.cn^
+||mavi-user.uc.cn^
+||isimage.uczzd.cn^
+||unpm-upaas.uc.cn^
+||hp-cms-uc.uc.cn^
+||mi-ad.uc.cn^
+||puds.ucweb.com^
+||pages.uc.cn^
+||ucad2-upas.uc.cn^
+||uc2-service-square.iggrowth.cn^
+||ustory-uppas.uc.cn^
+||upads.ucweb.com^
+||im-apl.uc.cn^
+||img.ucm.uc.cn^
+||ssp-sdk-config.uc.cn^
+||imvisgis.uc.cn^
+||imnovel.uc.cn^
+||imvisgis-uc.uc.cn^
+||imlaunchwx.uc.cn^
+||ads.ucfly.com^
+||sdk-config.uc.cn^
+||image.ucjr.com^
+||fanmoysp.uc.cn^
+||lbhp-tsp.uc.cn^
+||imp.uc.cn^
+||ums.uc.cn^
+||pixiu-sdk.uc.cn^
+||mp-sub.uc.cn^
+||mpms-sub.uc.cn^
+||bj2cu.u3.ucweb.com^
+||zblb.uc123.com^
 
-! ===== 阿里Tanx广告联盟 =====
-||a.opens.tanx.com^$important
-||opebhs.tanx.com^$important
-||ibagg.tanx.com^$important
+! ===== 九、igrowth / yunxish 广告聚合平台 =====
+||cc-service-square.iggrowth.cn^
+||ac-service-square.yunxish.com^
+||ads-ak.igrowth.cn^
+||lrtb.igrowth.cn^
+||igrcv.yunxish.com^
+||partner.igrowth.cn^
+||istar.shipuqiu-resource.11222.cn^
+||ads.igrowth.cn^
+||ssp.igrowth.cn^
+||ius-api.yunxish.com^
+||render-resource.11222.cn^
 
-! ===== igrowth广告聚合平台 =====
-||cc-service-square.iggrowth.cn^$important
-||ac-service-square.yunxish.com^$important
-||mp-sub.uc.cn^$important
-||mpms-sub.uc.cn^$important
-||ads-ak.igrowth.cn^$important
-||lrtb.igrowth.cn^$important
-||igrcv.yunxish.com^$important
-||partner.igrowth.cn^$important
-||istar.shipuqiu-resource.11222.cn^$important
-||ads.igrowth.cn^$important
+! ===== 十、京东 / 电商广告素材 =====
+||adv.jpg.jd.com^
+||ixl0x.jd-gd.com^
+||sdk-adx-jd.com^
 
-! ===== 第三方广告追踪、RTB竞价平台 =====
-||id.adbug.net^$important
-||1rtb.net^$important
-||ssp.igrowth.cn^$important
+! ===== 十一、其他广告 / 遥测补漏 =====
+||etao.com^
+||baidu-ad.com^
+||integralwall.baidu.com^
+||adjs-default-scd.e.kuaishou.com^
+||adtrack.qianwen.com^
+||ad.51wnl-cq.com^
+||events.telemetry.data.nvidia.cn^
+||logifier.doubao.com^
+||ngfts.lge.com^
+||umeng.com^
+||voiceads.cn^
+||hzshudian.com^
+||mssdk.volces.com.queniusz.com^
+||lsp.janpdj.id^
+||cpc-service-square.58iclick.com^
 
-! ===== 各类广告素材CDN、广告落地页、统计打点 =====
-||fs-fe-tos.pglistatp-toutiao.com^$important
-||f-fe-tos.pglistatp-toutiao.com^$important
-||sf3-fe-tos.pglistatp-toutiao.com^$important
-||ifal-tos-bytescm.com^$important
-||zqtekun.uyunad.com^$important
-||log.qq.com^$important
-||ad.qq.com^$important
-||px.ucweb.com^$important
-||lsp.janpdj.id^$important
-||adv.jpg.jd.com^$important
-||ixl0x.jd-gd.com^$important
-||ius-api.yunxish.com^$important
-||sdk-adx-jd.com^$important
-||lf-cdn-tos.bytedcm.com^$important
-||livecast-g-source.bytedgecko.com^$important
-||render-resource.11222.cn^$important
-||cpc-service-square.58iclick.com^$important
-||f2-fe-tos.pglistatp-toutiao.com^$important
-
-! ===== JS广告脚本、广告短链跳转、海外广告追踪（抓包新增）=====
-||filters.actividy.com^$important
-||jscdn.actividy.com^$important
-||filters.actividy.org^$important
-||zlink.ugdk.cn^$important
-||profile.gc-gale.com^$important
-
-! ===== 截图新增广告域名 =====
-||zblb.uc123.com^$important
-
-! ===== dns_blocklist.txt 导入补充域名 =====
-||hzshudian.com^$important
-||integralwall.baidu.com^$important
-||adjs-default-scd.e.kuaishou.com^$important
-||bj2cu.u3.ucweb.com^$important
-
-! ============ 【重要！书旗短剧核心白名单，放在末尾，优先级更高】 ============
-@@||drama-api.uc.cn^$important
-@@||story-api.uc.cn^$important
-@@||napi.uc.cn^$important
-@@||coral-task.uc.cn^$important
-@@||*.qznovelvod.com^$important
-@@||*.douyinvod.com^$important
-@@||imagex.bytedanceapi.com^$important
-@@||pan.quark.cn^$important
-@@||byteimg.com^$important
-@@||mclick.simba.taobao.com^$important
-@@||weather.api.moji.com^$important
-@@||yasuo.360.cn^$important
-@@||geo.asus.com^$important
-@@||wxa.wxs.qq.com^$important
-@@||wximg.wxs.qq.com^$important
+! =====================================================================
+!  【白名单 · 必须放在末尾，优先级最高】正片 / 资源 / 业务域名豁免
+! =====================================================================
+@@||qznovelovo.com^
+@@||qznovelvod.com^
+@@||*.qznovelvod.com^
+@@||*.douyinvod.com^
+@@||imagex.bytedanceapi.com^
+@@||byteimg.com^
+@@||drama-api.uc.cn^
+@@||story-api.uc.cn^
+@@||napi.uc.cn^
+@@||coral-task.uc.cn^
+@@||pan.quark.cn^
+@@||mclick.simba.taobao.com^
+@@||weather.api.moji.com^
+@@||yasuo.360.cn^
+@@||geo.asus.com^
