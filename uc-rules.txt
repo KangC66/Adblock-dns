@@ -1,6 +1,7 @@
 ||missile.iytcdn.com^
 ||ssp.iytcdn.com^$important
 ||abconfig.51wnl-cq.com^
+||youxi.xunlei.com^$important
 
 ! ===== 一、字节系 / 穿山甲广告 SDK 打点、归因、监测 =====
 ||whoami.akamai.net^$important
@@ -209,3 +210,4 @@
 @@||yasuo.360.cn^
 @@||geo.asus.com^
 @@||tos-lf-x.snssdk.com^$important
+@@||xfile2.a.88cdn.com^$important
